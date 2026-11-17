@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container my-5">
+    <h2 class="fw-bold mb-4">My Wishlist ❤️</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        {% for item in my_wishlist %}
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                {% if item.product %}
+                <img src="{{ item.product.image.url }}" class="card-img-top" alt="..."
+                    style="height:350px;object-fit:cover;">
+                {% elif item.newest %}
+                <img src="{{ item.newest.image.url }}" class="card-img-top" alt="..."
+                    style="height:350px;object-fit:cover;">
+                {% elif item.sales %}
+                <img src="{{ item.sales.image.url }}" class="card-img-top" alt="..."
+                    style="height:350px;object-fit:cover;">
+                {% endif %}
+                <div class="card-body">
+                    {% if item.product %}
+                    <h5 class="card-title fw-bold">{{item.product.name}}</h5>
+                    <p class="text-danger fw-bold">{{item.product.price}}Kyats</p>
+                    {% elif item.newest %}
+                    <h5 class="card-title fw-bold">{{item.newest.name}}</h5>
+                    <p class="text-danger fw-bold">{{item.newest.price}}Kyats</p>
+                    {% elif item.sales %}
+                    <h5 class="card-title fw-bold">{{item.sales.name}}</h5>
+                    <p class="text-danger fw-bold">{{item.sales.price}}Kyats</p>
+                    {% endif %}
+                    <div class="d-grid gap-2">
+                        {% if item.product %}
+                        <a href="{% url 'product' item.product.id %}" class="btn btn-dark btn-sm"
+                            style="background-color: #FFD1DC;color:#000;">View Prodcut</a>
+                        <a href="{% url 'remove_from_wishlist' item.product.id%}"
+                            class="btn btn-outline-danger btn-sm">Remove</a>
+                        {% elif item.newest %}
+                        <a href="{% url 'newest' item.newest.id %}" class="btn btn-dark btn-sm"
+                            style="background-color: #FFD1DC;color:#000;">View Prodcut</a>
+                        <a href="{% url 'remove_from_wishlist' item.newest.id%}"
+                            class="btn btn-outline-danger btn-sm">Remove</a>
+                        {% elif item.sales %}
+                        <a href="{% url 'sales' item.sales.id %}" class="btn btn-dark btn-sm"
+                            style="background-color: #FFD1DC;color:#000;">View Prodcut</a>
+                        <a href="{% url 'remove_from_wishlist' item.sales.id%}"
+                            class="btn btn-outline-danger btn-sm">Remove</a>
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+    {% endblock %}

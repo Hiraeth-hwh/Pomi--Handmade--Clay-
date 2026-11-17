@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow p-4">
+                <h3 class="text-center mb-4">Checkout Information</h3>
+                <hr>
+                
+                <form action="{% url 'place_order' %}" method="POST">
+                    {% csrf_token %}
+                    
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Shipping Address</label>
+                        <textarea class="form-control" id="address" name="address" rows="3" placeholder="Enter your full delivery address..." required></textarea>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="09xxxxxxxxx" required>
+                    </div>
+                    
+                    <hr>
+                    <div class="d-flex justify-content-between mb-3">
+                        <h5>Total Amount:</h5>
+                        <h5 class="text-primary">{{ grand_total }} Kyats</h5>
+                    </div>
+                    
+                   
+                </form>
+                <form action="{% url 'place_order'%}" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="mb-9 card p-3 bg-light">
+                        <h5 class="text-primary fw-bold">(KPay/WavePay)</h5>
+                        <p class="text-muted mb-2">Transfer your total amount to this Phone Number</p>
+                        <p class="mb-1"><strong>09-XXXXXXXXX(U Hla Kyaw)</strong></p>
+                        <hr>
+                        <label for="receipt" class="form-label fw-bold">Upload your payment screenshot</label>
+                        <input type="file" class="form-control" id="receipt" name="payment_receipt" accept="image/*" required>
+
+                    </div> 
+                    <button type="submit" class="btn btn-success w-100 ">Confirm & Place Order</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

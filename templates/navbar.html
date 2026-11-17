@@ -1,0 +1,93 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg pomi-navbar sticky-top">
+    <div class="container px-3 px-lg-4">
+        <!-- Pomi Brand -->
+        <a class="navbar-brand pomi-brand" href="{% url 'index' %}">
+            <span class="pomi-brand-icon">🌷</span>
+            <span>Pomi</span>
+            <small>little treasures</small>
+        </a>
+
+        <!-- Mobile Menu -->
+        <button class="navbar-toggler pomi-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Navigation Links -->
+            <ul class="navbar-nav pomi-nav-links mx-lg-auto mb-3 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'index' %}">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
+                </li>
+
+                {% if user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login' %}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'register' %}">Register</a>
+                </li>
+                {% endif %}
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'sales_list' %}">Sales</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'newest_items' %}">New Arrivals</a>
+                </li>
+            </ul>
+
+            <!-- Search -->
+            <form action="{% url 'index' %}" method="GET" class="pomi-search-form">
+                <div class="input-group">
+                    <input type="search" name="search" class="form-control pomi-search-input"
+                        placeholder="Find your little treasure..." value="{{ search_query|default:'' }}"
+                        aria-label="Search products">
+
+                    <button class="btn pomi-search-btn" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </form>
+
+            <!-- Action Buttons -->
+            <div class="pomi-actions">
+
+                <a href="{% url 'order_history' %}" class="pomi-action-btn" aria-label="My Orders" title="My Orders">
+                    <i class="bi bi-clock-history"></i>
+                    <span>Orders</span>
+                </a>
+
+                <a href="{% url 'cart_summary' %}" class="pomi-action-btn" aria-label="Shopping Cart">
+                    <i class="bi bi-bag-heart"></i>
+                    <span>Cart</span>
+                    <span class="pomi-count">{{ cart_count|default:0 }}</span>
+                </a>
+
+                <a href="{% url 'wishlist_view' %}" class="pomi-action-btn pomi-wishlist" aria-label="Wishlist">
+                    <i class="bi bi-heart-fill"></i>
+                    <span>Wishlist</span>
+
+                    {% if wishlist_count > 0 %}
+                    <span class="pomi-wishlist-count">
+                        {{ wishlist_count }}
+                    </span>
+                    {% endif %}
+                </a>
+
+            </div>
+        </div>
+    </div>
+</nav>

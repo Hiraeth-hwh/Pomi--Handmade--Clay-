@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container my-5">
+    <h2 class="fw-bold mb-4"><i class="bi bi-clock-history"></i> My Order History</h2>
+    <hr>
+
+    {% if orders %}
+        <div class="table-responsive shadow-sm rounded">
+            <table class="table table-bordered table-striped align-middle mb-0">
+                <thead class="table-pastel">
+                    <tr>
+                        <th scope="col" style="width: 10%;">Order ID</th>
+                        <th scope="col" style="width: 20%;">Date Ordered</th>
+                        <th scope="col" style="width: 40%;">Delivery Address</th>
+                        <th scope="col" style="width: 15%;">Total Price</th>
+                        <th scope="col" style="width: 15%;">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for order in orders %}
+                        <tr>
+                            <td><strong>#{{ order.id }}</strong></td>
+                            <td>{{ order.date }}</td>
+                            <td>{{ order.address }} <br> <small class="text-muted">Phone: {{ order.phone }}</small></td>
+                            <td class="text-primary fw-bold">{{ order.total_price }} Kyats</td>
+                            <td>
+                                {% if order.status %}
+                                    <span class="badge bg-success fs-6"><i class="bi bi-truck"></i> Shipped / Approved</span>
+                                {% else %}
+                                    <span class="badge bg-warning text-dark fs-6"><i class="bi bi-hourglass-split"></i> Pending</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="alert alert-info text-center p-5 my-4">
+            <h4 class="alert-heading">No Orders Found!</h4>
+            <p>There is no orderitem that you buy</p>
+            <a href="{% url 'index' %}" class="btn btn-primary mt-3">Go to Shop</a>
+        </div>
+    {% endif %}
+</div>
+
+{% endblock %}

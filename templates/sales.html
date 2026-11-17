@@ -1,0 +1,169 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+<style>
+    .pomi-sale-grid {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        justify-content: stretch !important;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .pomi-sale-grid  .pomi-sale-card {
+        border: none !important;
+        border-radius: 16px !important;
+        box-shadow: 0 8px 24px rgba(163, 184, 153, 0.12) !important;
+        transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 16px;
+    }
+
+
+    .pomi-sale-image {
+        background-color: #f8f9fa;
+        border-right: 1px solid #f0f0f0;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px 15px 0 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .pomi-sale-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+
+    }
+
+    .product-name {
+        font-size: 1rem;
+        font-weight: 800;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        padding-top: 3px;
+
+    }
+
+    .product-price {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-bottom: 20px;
+
+    }
+
+    .pomi-btn-view {
+        background-color: #2b5c8f !important;
+        border: none !important;
+        padding: 10px 25px !important;
+        font-weight: 600;
+        border-radius: 8px !important;
+        color: white !important;
+        justify-content: center;
+    }
+</style>
+<div class="hero-section">
+    <div class="row align-items-center">
+
+        <div class=" col-md-6 hero-content">
+            <h1>Find something beautiful.</h1>
+            <p>Discover unique pieces...</p>
+
+            <a href="{% url 'index'%}" class="btn text-white fw-bold px-4 py-2 rounded-pill shadow-sm"
+                style="background-color: #8fa881;">
+                Shop Now
+            </a>
+
+            <div class="d-flex flex-wrap gap-2 mt-4">
+                <div class="d-flex align-items-center bg-white px-3 py-2 rounded-pill shadow-sm">
+                    <span class="me-2">🚚</span>
+                    <small class="fw-bold" style="color: #5a6b5c;">Fast Shipping</small>
+                </div>
+                <div class="d-flex align-items-center bg-white px-3 py-2 rounded-pill shadow-sm">
+                    <span class="me-2">🎨</span>
+                    <small class="fw-bold" style="color: #5a6b5c;">100% Handmade Clay</small>
+                </div>
+                <div class="d-flex align-items-center bg-white px-3 py-2 rounded-pill shadow-sm">
+                    <span class="me-2">🎁</span>
+                    <small class="fw-bold" style="color: #5a6b5c;">Cute Gift Packaging</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 text-center hero-image-area">
+
+            {% if products %}
+            <img src="{{ products.0.image.url }}" class="hero-image " alt="featured product">
+            {% endif %}
+
+        </div>
+
+    </div>
+</div>
+<section>
+    <div class="container p-5">
+
+        <div class="pomi-sale-grid">
+            {% for product in products %}
+            <div class="card pomi-sale-card h-100 border-0 shadow-sm rounded-4 ">
+                <div class="pomi-sale-image ">
+                    {% if product.image %}
+                    <img src="{{product.image.url}}" alt="{{product.name}}">
+                    {% endif %}
+
+
+                </div>
+                <div class="card-body">
+                    <h5 class="product-name">{{product.name}}
+
+                    </h5>
+                    <div class="sale-label">
+                        Special Sale
+                        <div class="small text-warning mb-2 " style="font-size: 0.9rem;">
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                           <span class="mx-1">Sale!!</span>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                            <i class="bi-star-fill"></i>
+                        </div>
+
+                    </div>
+                    <div class="product-price fw-bold mb-2">
+                        <strike class="old-price" {{product.price}}Kyats> </strike>
+
+                        <span class="new-price">{{ product.sale_price }}Kyats</span>
+
+                    </div>
+
+                </div>
+                <div class="card-footer p-3 pt-0 border-top-0 bg-transparent text-center">
+                    <a href="{% url 'sales' product.id %}" class="btn py-2 rounded-pill text-white fw-bold shadow-sm"
+                        style="background-color: #8fa881 !important;">View Details</a>
+                    <a href="{% url 'add_to_wishlist' product.id %}"
+                        class="btn btn-pastel btn-sm rounded-circle position-absolute top-0 end-0 m-2 shadow-sm"
+                        style="z-index:10;width:35px;height:35px;display:flex;align-items: center;"
+                        title="Add to wishlist"><i class="bi bi-heart text-danger fs-6"></i></a>
+
+                </div>
+
+            </div>
+            {% endfor %}
+
+
+        </div>
+
+
+    </div>
+</section>
+
+{% endblock %}
