@@ -1,0 +1,909 @@
+[
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "Petals & Pastels",
+    "slug": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 7,
+  "fields": {
+    "name": "Animal Companions",
+    "slug": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 8,
+  "fields": {
+    "name": "Mushroom Valley",
+    "slug": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 11,
+  "fields": {
+    "name": "Ghibli Magic",
+    "slug": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 12,
+  "fields": {
+    "name": "Coral Kingdom",
+    "slug": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 13,
+  "fields": {
+    "name": "The Swan Cottage",
+    "slug": null
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Cute_Clay_Flower_Vase.jpeg",
+    "name": "Cute Clay Flower Vase",
+    "category": 5,
+    "price": 15000,
+    "description": "✨ Escape into a miniature world of wonder with this Cute Handmade Clay Flower & Decorative Vase Set. This stunning handmade masterpiece features colorful handcrafted flowers nestled inside a uniquely sculpted vase adorned with vibrant 3D clay charms like rainbows, bows, and sunshine. Perfect as a standalone centerpiece for your living room, office desk, or a dream gift that brings joy to life! 🌸🌈☀️\r\n✨ သင့်ရဲ့ ပတ်ဝန်းကျင်လေးကို ပုံပြင်ဆန်ဆန် ဆွဲဆောင်မှုအပြည့် ရှိသွားစေမယ့် “Cute Handmade Clay Flower & Decorative Vase Set” လက်ရာလေး ဖြစ်ပါတယ်။ အရောင်စုံလက်ရာမြောက် ပန်းပွင့်လေးတွေနဲ့ အတူ သက်တံ၊ လေးညှင်းပွင့်၊ နေရောင်ခြည် စတဲ့ 3D ရုပ်လုံးဖော် clay အလှဆင်လေးတွေ ပါဝင်တဲ့ အိုးလေးကို အောက်ခြေ Base တစ်ခုတည်းပေါ်မှာ အသေးစိတ် လက်လုပ်ဖန်တီးထားတာပါ။ ဧည့်ခန်းစားပွဲပေါ်မှာ အတင့်ကျကျ အလှဆင်ဖို့ ဖြစ်ဖြစ်၊ အနုပညာလက်ရာ တန်ဖိုးထားသူတွေအတွက် အမှတ်တရလက်ဆောင်ပေးဖို့ ဖြစ်ဖြစ် အလွန်ပြီးပြည့်စုံတဲ့ Set ကြီး ဖြစ်ပါတယ်ဗျာ။ 🎨✨\r\n 📐 Size: Approx. 15cm x 8cm (ကျယ်ဝန်း၍ အမြင့် တင့်တယ်သော အရွယ်အစား)\r\n     Material: Air-dry Clay,Ceramic Base,and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__24.jpeg",
+    "name": "Cute little dog toothbrush holder",
+    "category": 7,
+    "price": 13000,
+    "description": "✨ Brighten up your bathroom or vanity with this adorable handmade little dog toothbrush holder. Featuring a cute, long-bodied ceramic puppy adorned with a sweet pink bow and multiple slots to keep your toothbrushes neat and organized, this charming piece combines playful design with everyday functionality! 🐾🪥✨\r\n✨ သင့်ရဲ့ ရေချိုးခန်း သို့မဟုတ် အလှပြင်စားပွဲလေးကို ပိုပြီးချစ်စရာကောင်းပြီး သပ်ရပ်သွားစေမယ့် “Cute Little Dog Toothbrush Holder” လက်ရာလေး ဖြစ်ပါတယ်။ ချစ်စရာ ခွေးကိုယ်ထည်ရှည်လေးပေါ်မှာ ပန်းရောင်လေးညှင်းပွင့်လေးနဲ့ အလှဆင်ထားပြီး၊ သွားတိုက်တံတွေကို စနစ်တကျနဲ့ သပ်ရပ်စွာ ထည့်သွင်းသိမ်းဆည်းနိုင်မယ့် အပေါက်လေးတွေပါဝင်တဲ့အတွက် လက်ရာမြောက်ပြီး အသုံးဝင်တဲ့ အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်ဗျာ။ 🐶🪥\r\n 📐 Size: Approx. 18cm x 7cm (ကျယ်ဝန်း၍ အမြင့် တင့်တယ်သော အရွယ်အစား)\r\n 🛠️ Material: Premium Ceramic and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__8.jpeg",
+    "name": "Wall Decor",
+    "category": 8,
+    "price": 15000,
+    "description": "✨ Brighten up your bathroom or vanity with this adorable handmade little dog toothbrush holder. Featuring a cute, long-bodied ceramic puppy adorned with a sweet pink bow and multiple slots to keep your toothbrushes neat and organized, this charming piece combines playful design with everyday functionality! 🐾🪥✨\r\n✨ သင့်ရဲ့ ရေချိုးခန်း သို့မဟုတ် အလှပြင်စားပွဲလေးကို ပိုပြီးချစ်စရာကောင်းပြီး သပ်ရပ်သွားစေမယ့် “Cute Little Dog Toothbrush Holder” လက်ရာလေး ဖြစ်ပါတယ်။ ချစ်စရာ ခွေးကိုယ်ထည်ရှည်လေးပေါ်မှာ ပန်းရောင်လေးညှင်းပွင့်လေးနဲ့ အလှဆင်ထားပြီး၊ သွားတိုက်တံတွေကို စနစ်တကျနဲ့ သပ်ရပ်စွာ ထည့်သွင်းသိမ်းဆည်းနိုင်မယ့် အပေါက်လေးတွေပါဝင်တဲ့အတွက် လက်ရာမြောက်ပြီး အသုံးဝင်တဲ့ အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်ဗျာ။ 🐶🪥\r\n 📐 Size: Approx. 18cm x 7cm (ကျယ်ဝန်း၍ အမြင့် တင့်တယ်သော အရွယ်အစား)\r\n 🛠️ Material: Premium Ceramic and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/_𓈒_𖥟_____ᣟ𖥟.jpeg",
+    "name": "Pink Lotus plant",
+    "category": 5,
+    "price": 18500,
+    "description": "✨ Bring peace, tranquility, and natural elegance into your space with this stunning handmade Pink Lotus plant decor. Featuring a beautifully sculpted pink lotus bloom, delicate green lily pads, and a tiny lotus seed pod nestled inside a smooth ceramic pot, this piece adds a serene and graceful touch to any desk, living room, or meditation space! 🌸🌿✨\r\n✨ သင့်ရဲ့ အလုပ်စားပွဲ၊ ဧည့်ခန်း သို့မဟုတ် တိတ်ဆိတ်အေးချမ်းတဲ့ နေရာလေးမှာ စိတ်လက်အေးချမ်းမှုနဲ့ သဘာဝဆန်တဲ့ အလှတရားကို ယူဆောင်လာပေးမယ့် လက်ရာမြောက် “Handmade Pink Lotus Plant” အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်။ ချစ်စရာကောင်းတဲ့ ရေကန်စိမ်းစိုရောင် ceramic အိုးလေးထဲမှာ လက်ရာမြောက်စွာ ဖန်တီးထားတဲ့ ပန်းပုဇာတ်ဝင်ပုံစံ ပန်းရောင်ကြာပွင့်၊ ကြာွက်စိမ်းလေးတွေနဲ့ ကြာစေ့ဖူးလေးတွေ ပါဝင်တာကြောင့် ကြည့်လိုက်တာနဲ့ အေးချမ်းပြီး သပ်ရပ်လှပစေပါတယ်။ 🪷🌿\r\n 📐 Size: Approx. 12cm x 10cm (စားပွဲတင်ရန် သင့်တော်၍ ကျစ်လစ်လှပသော အရွယ်အစား)\r\n 🛠️ Material: Air-dry Clay, Ceramic Pot, and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Miniature_fairy_mushroom_house.jpeg",
+    "name": "Magical Mushroom Cottage & Wishing Well Playest",
+    "category": 8,
+    "price": 38000,
+    "description": "✨ Escape into a miniature world of wonder with this Deluxe Mushroom Fairy Garden Diorama Set. This stunning handmade masterpiece features a vibrant red mushroom cottage, a rustic wishing well, a pebble pathway, and a beautifully fenced flower garden. Perfect as a standalone centerpiece for your living room, office desk, or a dream gift that brings fairy tales to life! 🍄🏡🌸\r\n\r\n✨ သင့်ရဲ့ ပတ်ဝန်းကျင်လေးကို ပုံပြင်ဆန်ဆန် ဆွဲဆောင်မှုအပြည့် ရှိသွားစေမယ့် \"Deluxe\" နတ်သမီးမှိုဥယျာဉ်အသေးစားလေး ဖြစ်ပါတယ်။ တောက်ပတဲ့ အနီရောင်မှိုအိမ်လေးနဲ့အတူ ရှေးဟောင်းပုံစံ ရေတွင်းလေး၊ ကျောက်ခဲရောင်စုံလမ်းလေးနဲ့ ပန်းခြံခြံစည်းရိုးလေးတွေပါ အောက်ခြေ Base တစ်ခုတည်းပေါ်မှာ အသေးစိတ် လက်လုပ်ဖန်တီးထားတာပါဗျာ။ ဧည့်ခန်းစားပွဲပေါ်မှာ အထာကျကျ အလှဆင်ထားဖို့ဖြစ်ဖြစ်၊ အနုပညာလက်ရာ တန်ဖိုးထားသူတွေအတွက် အမှတ်တရလက်ဆောင်ပေးဖို့ဖြစ်ဖြစ် အလွန်ပြီးပြည့်စုံတဲ့ Set ကြီး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 18cm x 15cm (ကျယ်ဝန်း၍ အမြင်တင့်တယ်သော အရွယ်အစား)\r\n🌱 Material: Mixed Clay, Premium Resin, and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__6.jpeg",
+    "name": "Aesthetic Pastel Cottagecore Clay Ornament",
+    "category": 5,
+    "price": 25000,
+    "description": "✨ Bring a touch of fairytale magic to your space with this 100% Handmade Clay Fairy Mushroom House. Intricately crafted with beautiful pastel roses and whimsical details, this aesthetic piece is perfect for your desk, shelf, or as a cozy gift for fairy tale lovers. Each cottage is uniquely made with love and care. 🍄🌸\r\n\r\n✨ ၁၀၀% လက်လုပ် စိတ်ကြိုက်ဖန်တီးထားတဲ့ ရွှံ့စေး မှိုနတ်သမီးအိမ်လေးနဲ့ သင့်ရဲ့ အခန်းလေးကို ပုံပြင်ဆန်ဆန် အလှဆင်လိုက်ပါ။ နုညံ့တဲ့ Pastel ပန်းရောင်မှိုခေါင်မိုးလေးနဲ့ လှပတဲ့ နှင်းဆီပွင့်လေးတွေ အသေးစိတ် ပါဝင်တာကြောင့် စားပွဲတင်အလှဆင်ဖို့ဖြစ်ဖြစ်၊ အနုပညာဝါသနာအိုးတွေအတွက် လက်ဆောင်ပေးဖို့ဖြစ်ဖြစ် အလွန်အဆင်ပြေပါတယ်။ လက်မှုအနုပညာစစ်စစ်မို့ တစ်ခုချင်းစီမှာ မတူညီတဲ့ ထူးခြားတဲ့ အလှတရားတွေ ရှိနေမှာပါဗျာ။ 🥰✨\r\n\r\n📐 Size: Approx. 12cm x 10cm (စားပွဲတင် သင့်တော်သော အရွယ်အစား)\r\n🌱 Material: Air-dry Clay / Premium Ceramic Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__9.jpeg",
+    "name": "Pastel Coral Reef Clay Diorama",
+    "category": 12,
+    "price": 26000,
+    "description": "✨ Bring the serene beauty of the ocean into your home with this Pastel Coral Reef Clay Diorama. Exquisitely handcrafted with premium modeling clay, this piece features soft pastel pinks, purples, and earthy tones to form a breathtaking miniature coral garden complete with a tiny starfish. Its soft, calming colors make it the perfect aesthetic decor for your bedroom, study desk, or as a thoughtful handmade gift. 🌊🪸🐚\r\n✨ ပင်လယ်ရေအောက်ကမ္ဘာရဲ့ ငြိမ်းချမ်းတိတ်ဆိတ်တဲ့ အလှတရားကို ဖော်ကျူးထားတဲ့ Pastel သန္တာကျောက်တန်း လက်လုပ်ရွှံ့စေးပြကွက်လေး ဖြစ်ပါတယ်။ နုညံ့ပျော့ပျောင်းတဲ့ ပန်းရောင်၊ ခရမ်းနုရောင်နဲ့ သဘာဝမြေသားရောင် လေးတွေကို အချိုးကျစပ်ပြီး သန္တာကျောက်တန်းပုံစံမျိုးစုံနဲ့ ကြယ်ငါးလေးတစ်ကောင်ကို အသေးစိတ် လက်နဲ့ ပုံဖော်ပေးထားတာပါဗျာ။ အရောင်လိုင်း ကာလာဆန်းဆန်းလေးတွေ သုံးထားတာမို့ မိမိရဲ့ အိပ်ခန်း၊ စာဖတ်စားပွဲတွေမှာ Aesthetic ဆန်ဆန် အလှဆင်ထားဖို့ သော်လည်းကောင်း၊ ချစ်ခင်ရသူတွေကို ထူးခြားတဲ့ လက်မှုပစ္စည်းလေးအဖြစ် လက်ဆောင်ပေးဖို့ သော်လည်းကောင်း လုံးဝ အဆင်ပြေပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 14cm x 12cm\r\n🌱 Material: Eco-friendly Air-Dry Clay & Wooden-style Base",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__10.jpeg",
+    "name": "Dolphin & Jellyfish Deep Sea Clay Diorama",
+    "category": 12,
+    "price": 23000,
+    "description": "✨ Immerse yourself in the tranquility of the deep blue sea with this Dolphin & Jellyfish Clay Diorama. Masterfully handcrafted with premium air-dry clay, this unique piece features a playful blue dolphin and a delicate jellyfish gracefully suspended in the air with fine wirework. Surrounded by minimalist white and pastel blue coral reefs, it brings a calming, modern ocean aesthetic to your desk, nightstand, or workspace. 🐬🌊🪼\r\n✨ ပင်လယ်ပြာရဲ့ ငြိမ်းချမ်းအေးမြတဲ့ အလှတရားကို အိမ်မက်ဆန်ဆန် ပုံဖော်ထားတဲ့ လင်းပိုင်နှင့် ရေဂျယ်လီ လက်လုပ် Clay Art ပြကွက်လေး ဖြစ်ပါတယ်။ အပြာနုရောင် ဂျုံစေး/ရွှံ့စေးလေးတွေကို အသုံးပြုထားပြီး ဝါယာကြိုးမျှင်လေးတွေနဲ့ လင်းပိုင်လေးနဲ့ ရေဂျယ်လီလေးကို လေထဲမှာ တကယ့်ကို ကူးခတ်နေသလိုမျိုး ဆန်းဆန်းပြားပြား ဖန်တီးပေးထားတာပါဗျာ။ အဖြူရောင်နဲ့ အပြာနုရောင် သန္တာကျောက်တန်းလေးတွေနဲ့ ဝန်းရံထားတာမို့ မိမိရဲ့ စာဖတ်စားပွဲ၊ ရုံးခန်း ဒါမှမဟုတ် အိပ်ရာဘေးက စင်လေးတွေပေါ်မှာ ခေတ်မီပြီး အေးချမ်းတဲ့ Ocean Aesthetic အလှဆင်ပစ္စည်းအဖြစ် ထားရှိဖို့ လုံးဝ အဆင်ပြေပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 16cm x 13cm (အမြင့်ပါဝင်သော ပြကွက်)\r\n🌱 Material: Premium Air-Dry Clay & Sculpting Wire Structure",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__14.jpeg",
+    "name": "Cute Duck & Frog Lotus Pond Clay Diorama",
+    "category": 7,
+    "price": 20000,
+    "description": "✨ Add a splash of cuteness to your home with this Cute Duck & Frog Lotus Pond Clay Diorama. Expertfully handcrafted with vibrant modeling clay, this whimsical piece showcases an adorable little duck with a tiny frog sitting on its head, nestled inside a serene pond filled with beautiful lotus flowers, large lily pads, and realistic dewdrop details. It makes a wonderful desk companion, bookshelf decor, or a heartwarming gift for anyone who loves cute aesthetics. 🪷🦆🐸\r\n✨ ကြည့်လိုက်တာနဲ့ စိတ်ချမ်းသာစေမယ့် ကြာပဒုမ္မာ ရေကန်ငယ် လက်လုပ် Clay Art ပြကွက်လေး ဖြစ်ပါတယ်။ ချစ်စရာ ကောင်းလွန်းတဲ့ ဘဲဥပုံစံ ဘဲပေါက်လေးရဲ့ ခေါင်းပေါ်မှာ ဖားပြုတ်စိမ်းလေး တင်ထားတဲ့အပြင် ကြာရွက်အဝိုင်းကြီးတွေ၊ လှပတဲ့ ကြာပွင့်ပန်းရောင်လေးတွေနဲ့ ရေကန်ထဲက သဘာဝအတိုင်း ကျောက်ခဲလေးတွေကိုပါ အသေးစိတ် ပုံဖော်ပေးထားတာပါဗျာ။ ကြာရွက်ပေါ်က ရေစက်ကလေးတွေအထိ လက်ရာမြောက်လှတာမို့ စာဖတ်စားပွဲပေါ် တင်ထားဖို့ဖြစ်ဖြစ်၊ မိမိရဲ့ ကွန်ပျူတာစင်လေးတွေမှာ Cottagecore/Aesthetic ဆန်ဆန် အလှဆင်ဖို့ဖြစ်ဖြစ် အထူးပဲ သင့်တော်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 12cm x 12cm (ကျစ်လစ်ချစ်စရာကောင်းသော အရွယ်အစား)\r\n🌱 Material: Eco-friendly Clay & Glossy Resin Water Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__12.jpeg",
+    "name": "Pastel Spring flower Garden Clay Diorama",
+    "category": 5,
+    "price": 23000,
+    "description": "✨ Brighten up your living space with the everlasting beauty of this Pastel Spring Flower Garden Clay Diorama. Exquisitely handcrafted with soft, vibrant modeling clay, this lovely centerpiece captures a blooming mini garden filled with colorful tulips, daisies, and delicate green foliage. It brings a fresh, cheerful, and cottagecore vibe to your study desk, windowsill, or makes a heartwarming handmade gift for flower lovers. 🌸🌼🌷\r\n✨ ကြည့်လိုက်တာနဲ့ အမြဲတမ်း လန်းဆန်းတောက်ပနေမယ့် နွေဦးပန်းခင်း လက်လုပ် Clay Art ပြကွက်လေး ဖြစ်ပါတယ်။ နုညံ့ပျော့ပျောင်းတဲ့ ပန်းရောင်၊ လိမ္မော်ရောင်နဲ့ အဝါရောင် ကြွေထည်စတိုင် ဂျုံစေး/ရွှံ့စေးလေးတွေကို အသုံးပြုပြီး ဖူးပွင့်စပြုနေတဲ့ ပန်းပွင့်ဖတ်လေးတွေ၊ ပန်းဝတ်ဆံလေးတွေနဲ့ အရွက်စိမ်းလေးတွေကို သဘာဝအတိုင်း အသေးစိတ် လက်နဲ့ ပုံဖော်ပေးထားတာပါဗျာ။ မိမိရဲ့ စာဖတ်စားပွဲ၊ ပြတင်းပေါက်စင်လေးတွေပေါ်မှာ Cottagecore ဆန်ဆန်နဲ့ ချစ်စရာကောင်းအောင် အလှဆင်ထားဖို့ သော်လည်းကောင်း၊ ပန်းချစ်သူတွေအတွက် ညှိုးနွမ်းမသွားမယ့် အမှတ်တရလက်ဆောင်ပေးဖို့ သော်လည်းကောင်း လုံးဝ ကွက်တိပါပဲဗျာ။ 🥰✨\r\n📐 Size: Approx. 13cm x 13cm (စားပွဲတင် သင့်တော်သော အရွယ်အစား)\r\n🌱 Material: Non-toxic Air-Dry Clay & Hand-painted Detailing",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__11.jpeg",
+    "name": "Magical Toroto forest Garden Set",
+    "category": 11,
+    "price": 40000,
+    "description": "✨ Step into the enchanting world of Studio Ghibli with this Deluxe Magical Totoro Forest Fairy Garden Set. Beautifully handcrafted with premium modeling clay, this premium diorama features the beloved Totoro family nestled under a majestic, glowing ancient tree adorned with warm LED fairy lights. Complete with tiny mushrooms, soot sprites, a hot air balloon, and a stone pathway, this masterpiece is the ultimate fairytale centerpiece for Ghibli fans and aesthetic lovers alike. 🌲🍄✨\r\n✨ Studio Ghibli ချစ်သူတွေနဲ့ ပုံပြင်ဆန်ဆန် Theme ကြိုက်သူတွေ လုံးဝလက်မလွှတ်သင့်တဲ့ Deluxe မီးလင်း Totoro တောအုပ်ပြကွက်ကြီး ဖြစ်ပါတယ်။ အရည်အသွေးမြင့် ဂျုံစေး/ရွှံ့စေး (Modeling Clay) ကို အသုံးပြုပြီး ချစ်စရာကောင်းတဲ့ Totoro မိသားစုဝင်တွေ၊ မီးပုံးပျံအသေးစားလေးနဲ့ တောအုပ်ထဲက မှိုလေးတွေကို တစ်ခုချင်းစီ အသေးစိတ် လက်နဲ့ ပုံဖော်ပေးထားတာပါဗျာ။ အဓိကအချက်ဖြစ်တဲ့ မှော်သစ်ပင်ကြီးမှာ နွေးထွေးတဲ့ LED မီးသီးလေးတွေ လင်းထိန်နေအောင် ထည့်သွင်းပေးထားတာမို့ ညဘက် ဧည့်ခန်း၊ အိပ်ခန်းတွေမှာ မီးဖွင့်ထားရင် တကယ့်ကို စိတ်ကူးယဉ်ဆန်ဆန် လှပလွန်းတဲ့ Masterpiece လက်ရာမွန်ကြီး ဖြစ်ပါတယ်ဗျာ။ 🥰🌟\r\n📐 Size: Approx. 22cm x 18cm (အဝိုင်းအကျယ် ကျယ်ဝန်းပြီး အဆင့်မြင့်သောပြကွက်)\r\n💡 Feature: Multi-bulb Warm LED Tree Lights (မီးသီးစုံ မီးလင်းစနစ်ပါဝင်သည်)",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__4_vnq6Kym.jpeg",
+    "name": "Graceful Swan lake Ceramic Wall Clock",
+    "category": 13,
+    "price": 26000,
+    "description": "✨ အချိန်တိုင်းကို အိမ်မက်ဆန်ဆန် ဖြတ်သန်းနိုင်ဖို့အတွက် Balletcore / Coquette Aesthetic အပြည့်ရှိတဲ့ ငန်းဖြူစုံတွဲ လက်လုပ်ကြွေထည် နာရီလေး ဖြစ်ပါတယ်။ နုညံ့တဲ့ Pastel ပန်းရောင် နောက်ခံလေးပေါ်မှာ ကျော့ရှင်းလှပတဲ့ ငန်းဖြူလေးနှစ်ကောင်က နှလုံးသားပုံစံလေးအဖြစ် တစ်ကောင်ကိုတစ်ကောင် ကြည့်နေတဲ့ပုံကို အသေးစိတ် ဖန်တီးထားတာပါဗျာ။ ရွှေရောင်နာရီလက်တံ Vintage ပုံစံလေးတွေနဲ့ အနားသတ်နံပါတ်တွေကအစ အဆင့်အတန်းရှိလှတာမို့ အခန်းနံရံမှာပဲ ချိတ်ချိတ်၊ စာဖတ်စားပွဲပေါ်မှာပဲ တင်တင် အလွန်တင့်တယ်စေမယ့်အပြင် ရိုမန်တစ်ဆန်တဲ့ လက်ဆောင်မွန်တစ်ခုလည်း ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 18cm Diameter (နံရံကပ်/စားပွဲတင် အလယ်အလတ်အရွယ်အစား)\r\n🌱 Feature: Silent Clock Mechanism & Glossy Ceramic Finish (အသံတိတ် နာရီစနစ်ပါဝင်သည်)",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__20.jpeg",
+    "name": "Vintage Coquette Swan Ceramic Jewelry Box",
+    "category": 13,
+    "price": 35000,
+    "description": "✨ မိမိရဲ့ အဖိုးတန် လက်ဝတ်ရတနာလေးတွေကို အဆင့်အတန်းရှိရှိ သိမ်းဆည်းထားနိုင်ဖို့အတွက် Rococo / Coquette Aesthetic အပြည့်ရှိတဲ့ ငန်းဖြူစုံတွဲ လက်လုပ်ကြွေထည်ဘူးလေး ဖြစ်ပါတယ်။ လှပတဲ့ ပုလဲရောင် (Pearlescent Finish) တောက်တောက်လေးနဲ့ ဖန်တီးထားပြီး အဖုံးပေါ်မှာ ငန်းဖြူစုံတွဲလေးက နှလုံးသားပုံစံလေး ဖော်ဆောင်နေပါတယ်ဗျာ။ ဘူးရဲ့ ဘေးပတ်ပတ်လည်မှာလည်း ဗင်းတေ့ချ်ကိတ်မုန့်အလှဆင် စတိုင်လ် လှပတဲ့ ဖဲပြုံးပုံစံလေးတွေနဲ့ ပန်းရောင်နှင်းဆီပွင့်လေးတွေ အသေးစိတ် ပါဝင်တာကြောင့် မှန်တင်ခုံပေါ်မှာ တင်ထားရုံနဲ့တင် တော်ဝင်မင်းသမီးတစ်ပါးရဲ့ အခန်းလိုမျိုး စိတ်ကူးယဉ်ဆန်ဆန် ကျော့ရှင်းလှပနေမှာ အသေအချာပါပဲဗျာ။ 🥰✨\r\n📐 Size: Approx. 15cm x 10cm x 12cm (အသုံးဝင်၍ အချိုးအစားကျသော အရွယ်အစား)\r\n🌱 Feature: Removable Lid with Dual-Swan Handle & Storage Compartment",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/.jpeg_ONmkQGr",
+    "name": "Romantic Swan Lake Framed Oil Painting",
+    "category": 13,
+    "price": 20000,
+    "description": "✨ သင့်အခန်းရဲ့ နံရံလေးတွေကို စိတ်ကူးယဉ်ဆန်ဆန် အနုပညာရသ ပြည့်နှက်သွားစေမယ့် ငန်းဖြူစုံတွဲ အလှချိတ် ပန်းချီကားချပ်လေး ဖြစ်ပါတယ်။ အေးချမ်းတဲ့ ရေပြင်ပေါ်မှာ ကျော့ရှင်းလှပတဲ့ ငန်းဖြူလေးနှစ်ကောင် အတူတူရှိနေတဲ့ ဆီဆေးစတိုင်လ် ပန်းချီလက်ရာကို နုညံ့တဲ့ Pastel ပန်းရောင် ဖရိမ်လေးနဲ့ သေသပ်စွာ ကွပ်ပေးထားတာပါဗျာ။ Coquette နဲ့ Cottagecore စတိုင်လ်ကို အပြည့်အဝ ဖော်ဆောင်ပေးတာမို့ အိပ်ခန်းနံရံမှာပဲ ချိတ်ချိတ်၊ စာဖတ်စားပွဲဘေးမှာပဲ အလှဆင်ဆင် အခန်းတွင်းပတ်ဝန်းကျင်ကို ပိုမိုငြိမ်းချမ်းပြီး ဆွဲဆောင်မှုရှိစေမှာ အသေအချာပါပဲဗျာ။ 🥰✨\r\n📐 Size: Approx. A5 to A4 Size (နံရံကပ်/စားပွဲတင် အဆင်ပြေသော အရွယ်အစား)\r\n🌱 Material: Premium Canvas/Art Paper & Durable Pastel Pink Frame",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__19.jpeg",
+    "name": "Magical Pearl Swan & Butterfly Candle Holder",
+    "category": 13,
+    "price": 28000,
+    "description": "✨ သင့်အခန်းလေးကို ပုံပြင်ဆန်ဆန် နွေးထွေးတဲ့ အလင်းရောင်လေးတွေနဲ့ အလှဆင်ပေးမယ့် ငန်းဖြူစုံတွဲ နံရံကပ် လက်လုပ်ဖယောင်းတိုင်မီးစင်လေး ဖြစ်ပါတယ်။ တစ်ခုလုံးကို တောက်ပတဲ့ ပုလဲရောင်အလွှာ (Pearlescent Glossy Finish) လေး ဖုံးအုပ်ပေးထားပြီး အပေါ်မှာ ကာလာစုံ လိပ်ပြာလေးနဲ့ အလယ်မှာ ငန်းဖြူစုံတွဲ ပန်းချီကားချပ်လေး အသေးစိတ် ပါဝင်ပါတယ်ဗျာ။ အောက်ခြေက ခွက်လေးထဲမှာ ဖယောင်းတိုင်အသေးလေးတွေ ထည့်သွင်းညှိထွန်းနိုင်တာမို့ ညဘက်တွေမှာ အခန်းနံရံကနေ နွေးထွေးအေးချမ်းတဲ့ ခံစားချက်ကို ပေးစွမ်းနိုင်မှာပါ။ Coquette နဲ့ Fairycore စတိုင်လ် ကြိုက်နှစ်သက်သူတွေအတွက် မရှိမဖြစ် အလှဆင်ပစ္စည်းမွန်လေးပါဗျာ။ 🥰✨\r\n📐 Size: Approx. 20cm x 12cm (နံရံကပ် ချိတ်ဆွဲရန် အနေတော် အရွယ်အစား)\r\n🌱 Feature: Wall-Hanging Hook, Pearlescent Finish, Suitable for Tealight/LED Candles",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Swan_Decor_Ideas__Vase_Planter__Whimsical_Accent.jpeg",
+    "name": "Elegant Swan Princess Flower Vase",
+    "category": 13,
+    "price": 24000,
+    "description": "✨ သင်နှစ်သက်တဲ့ ပန်းလေးတွေကို အဆင့်အတန်းရှိရှိ ထည့်သွင်းအလှဆင်နိုင်ဖို့အတွက် Coquette / Cottagecore Aesthetic အပြည့်ရှိတဲ့ ငန်းဖြူ လက်လုပ်ကြွေထည်ပန်းအိုးလေး ဖြစ်ပါတယ်။ အရောင်တောက်ပတဲ့ Glossy Ceramic Finish အလွှာလေးနဲ့အတူ ကျော့ရှင်းတဲ့ ငန်းဖြူလေးရဲ့ လည်ပင်းအကွေးအဆန့်နဲ့ အတောင်ပံအမွှေးအမျှင် ပုံစံတွေကို သေသေသပ်သပ် ပုံဖော်ပေးထားတာပါဗျာ။ တကယ့်ပန်းအစစ် (သို့မဟုတ်) တျူးလစ်ပန်းခြောက်လေးတွေ ထည့်ပြီး စင်လေးတွေပေါ်မှာဖြစ်ဖြစ်၊ မှန်တင်ခုံနဲ့ ထမင်းစားစားပွဲတွေပေါ်မှာဖြစ်ဖြစ် Aesthetic ဆန်ဆန် အလှဆင်ဖို့ လုံးဝကွက်တိပါပဲဗျာ။ 🥰✨\r\n📐 Size: Approx. 18cm x 12cm x 15cm (ပန်းထိုးရန် အနေတော် အလယ်အလတ်အရွယ်အစား)\r\n🌱 Material: Premium Glazed Ceramic / Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Handmade_ceramic_mug_swan-shaped.jpeg",
+    "name": "Graceful Swan Lake Ceramic Teacup Set",
+    "category": 13,
+    "price": 26000,
+    "description": "✨ [အထူးပရိုမိုးရှင်း] မနက်ခင်း ကော်ဖီ၊ လက်ဖက်ရည် သောက်သုံးတဲ့ အချိန်တိုင်းကို တော်ဝင်ဆန်ဆန် ကျော့ရှင်းသွားစေမယ့် ငန်းဖြူပုံစံ လက်လုပ်ကြွေထည်ခွက်နဲ့ ပန်းကန်ပြားအတွဲ Set လေး ဖြစ်ပါတယ်။ ကျော့ရှင်းတဲ့ ငန်းဖြူလေးရဲ့ ခန္ဓာကိုယ်ကို ခွက်ရဲ့ လက်ကိုင်ဒီဇိုင်းအဖြစ် အထာကျကျ ပုံဖော်ထားပြီး အောက်ခြေက ပန်းကန်ပြားလေးကိုလည်း ရေလှိုင်းတွန့်ပုံစံလေးတွေ အသေးစိတ် ဖန်တီးပေးထားတာပါဗျာ။ အလင်းပြန် တောက်ပတဲ့ ကြွေထည်အလွှာလေးကြောင့် မှန်တင်ခုံ၊ စာဖတ်စားပွဲတွေပေါ်မှာ အလှတင်ထားရုံနဲ့တင် Coquette Aesthetic အပြည့် ရရှိစေမှာပါ။ အခုပဲ အထူးလျှော့ဈေးနှုန်းနဲ့ အမြန်ဆုံး ပိုင်ဆိုင်လိုက်ပါနော်။ 🥰✨\r\n📐 Size: Cup (Approx. 250ml), Saucer (Approx. 14cm Diameter)\r\n🌱 Feature: Heat-resistant Glazed Ceramic, Unique Swan Handle Design",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__22.jpeg",
+    "name": "Classic Swan Lake Ballet Dancer Figurine",
+    "category": 13,
+    "price": 25000,
+    "description": "✨ ဂန္ထဝင်မြောက် ‘Swan Lake’ ပြဇာတ်ရဲ့ ကဗျာဆန်တဲ့ အလှတရားကို အိမ်မက်ဆန်ဆန် ပုံဖော်ထားတဲ့ ဘဲလေးကချေသည်နှင့် ငန်းဖြူ လက်လုပ်အလှပြရုပ်လေး ဖြစ်ပါတယ်။ တောက်ပအချောသတ်ထားတဲ့ Glossy Finish လေးနဲ့အတူ ကျော့ရှင်းလှပတဲ့ ကချေသည်မလေးရဲ့ ကကွက်ဟန်ပန်နဲ့ ဘေးနားက ငန်းဖြူကြီးရဲ့ အမွှေးအတောင် ပုံသဏ္ဌာန်တွေကို အသေးစိတ် ပုံဖော်ပေးထားတာပါဗျာ။ Balletcore နဲ့ Coquette စတိုင်လ်ကို အပြည့်အဝ ဖော်ဆောင်ပေးတာမို့ မိမိရဲ့ မှန်တင်ခုံ၊ စာအုပ်စင် ဒါမှမဟုတ် ဧည့်ခန်း display ဗီရိုလေးတွေထဲမှာ တင့်တယ်လှပစွာ အလှဆင်ထားဖို့ အထူးပဲ သင့်တော်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 18cm x 12cm (စားပွဲတင် အလှပြရန် အနေတော် အရွယ်အစား)\r\n🌱 Material: Non-toxic Premium Clay / Glazed Ceramic Style Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/_.webp",
+    "name": "Blooming Petals Ceramic Jewelry Dish",
+    "category": 5,
+    "price": 14000,
+    "description": "✨ မိမိရဲ့ အသည်းစွဲ လက်ဝတ်ရတနာလေးတွေနဲ့ ကလစ်လေးတွေကို အမြဲသေသပ်လှပနေအောင် သိမ်းဆည်းပေးမယ့် ချယ်ရီပန်းပွင့်ပုံစံ လက်လုပ်ကြွေထည် ဗန်းလေး ဖြစ်ပါတယ်။ နုညံ့ပျော့ပျောင်းတဲ့ ပန်းရောင်နဲ့ အဝါရောင် Pastel ကာလာလေးတွေကို ပုလဲရောင် (Pearlescent Glossy Finish) လေး အုပ်ပေးထားတာမို့ တကယ့်ကို အလင်းပြန်တောက်ပပြီး ချစ်စရာကောင်းလွန်းပါတယ်ဗျာ။ မှန်တင်ခုံပေါ်မှာပဲဖြစ်ဖြစ်၊ အိပ်ရာဘေး စင်လေးပေါ်မှာပဲထားထား Coquette Aesthetic အပြည့်နဲ့ အခန်းအလှကို ပိုမိုပံ့ပိုးပေးမှာဖြစ်သလို၊ သူငယ်ချင်းတွေကို လက်ဆောင်ပေးဖို့လည်း အင်မတန် အဆင်ပြေပါတယ်နော်။ 🥰✨\r\n📐 Size: Approx. 13cm Diameter (လက်ဝတ်ရတနာနှင့် အသုံးအဆောင်များ တင်ရန် အနေတော် အရွယ်အစား)\r\n🌱 Material: Glossy Glazed Ceramic / Clay Art",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Tulips_candle_.webp",
+    "name": "Elegant Calla Lily flower Candle",
+    "category": 5,
+    "price": 28000,
+    "description": "✨ မိမိရဲ့ အခန်းလေးကို ပုံပြင်ဆန်ဆန် နွေးထွေးတဲ့ အလင်းရောင်နဲ့ ဖော်ညွှန်းပေးမယ့် ကာလာလီလီ ပန်းပွင့်ပုံစံ လက်လုပ်အနုပညာ ဖယောင်းတိုင်လေး ဖြစ်ပါတယ်။ တကယ့်ပန်းပွင့်အစစ်အတိုင်း နုညံ့တဲ့ ပန်းရောင်အနားသတ်လေးတွေနဲ့ ကျော့ရှင်းတဲ့ ရိုးတံစိမ်းစိမ်းလေးကို အချိုးအစားကျကျ ပုံဖော်ထုဆစ်ထားတာပါဗျာ။ မီးညှိထွန်းလိုက်တဲ့အခါ ပန်းပွင့်ဖတ်ထဲကနေ နွေးထွေးတဲ့ အလင်းရောင်လေး ဖြာထွက်လာမှာမို့ Fairycore နဲ့ Cottagecore အိပ်ခန်းအလှဆင်ဖို့အတွက် လုံးဝကို အမိုက်စား ပစ္စည်းမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 20cm Height (နမူနာဗူးနှင့် အချိုးကျသော အလှပြအရွယ်အစား)\r\n🌱 Material: Premium Eco-friendly Wax / Hand-painted Details",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__1.webp",
+    "name": "Elegant Royal Flower Petal Tea Mug & Leaf Saucer",
+    "category": 5,
+    "price": 32000,
+    "description": "✨ သင့်ရဲ့ Tea Time အချိန်လေးတွေကို တော်ဝင်မင်းသမီးတစ်ပါးလို စည်းစိမ်ရှိရှိ ကျော့ရှင်းသွားစေမယ့် Gloxinia Velvet ပန်းပွင့်ပုံစံ Premium ကြွေထည်ခွက်နဲ့ အောက်ခံအရွက်ပြား Set လေး ဖြစ်ပါတယ်။ ဖူးပွင့်စ ဂလောက်ဆီးနီးယား ပန်းပွင့်ဖတ်လေးတွေရဲ့ သဘာဝအတိုင်း အကွေးအဆန့်တွေကို ပန်းရောင်စပ်စပ်လေး ပုံဖော်ထားပြီး အောက်ခံပန်းကန်ပြားလေးကိုလည်း တကယ့်သစ်ရွက်အစစ်ရဲ့ အကြောအမျှင်တွေအတိုင်း အသေးစိတ် ဖန်တီးပေးထားတာပါဗျာ။ အဆင့်မြင့် Premium အစိမ်းရောင်ဘူးလေးပါ တစ်ခါတည်း ပါဝင်တာမို့ မိမိအတွက်ပဲ အလှသိမ်းသိမ်း၊ အလေးအမြတ်ထားရတဲ့သူတွေကိုပဲ လက်ဆောင်ပေးပေး တကယ့်ကို တန်ဖိုးရှိလှတဲ့ အနုပညာမြောက် ပစ္စည်းမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Cup (Approx. 200ml), Saucer (Standard Teaware Size)\r\n🌱 Feature: High-Quality Glazed Porcelain, Real Leaf-Texture Saucer, Includes Premium Gift Box",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__25.jpeg",
+    "name": "Enchanted Lily of the Valley Crochet Nightlight",
+    "category": 5,
+    "price": 26000,
+    "description": "✨ သင့်ရဲ့ အိပ်ခန်းလေးကို ပုံပြင်ဆန်ဆန် မှော်တောအုပ်လေးတစ်ခုလို ပြောင်းလဲပေးမယ့် လက်ယက်ချည်ထိုး ပန်းပွင့်ပုံစံ အလှဆင်မီးအိမ်လေး ဖြစ်ပါတယ်။ နုညံ့တဲ့ ပန်းရောင်ပန်းပွင့်ဖတ်လေးထဲကနေ နွေးထွေးတဲ့ LED အလင်းရောင်လေး ဖြာထွက်နေမယ့်အပြင်၊ အောက်ခြေနဲ့ ရိုးတံတစ်လျှောက်မှာလည်း Fairy Lights မီးကြိုးလေးတွေ သေသေသပ်သပ် ရစ်ပတ်ပေးထားတာပါဗျာ။ ညဘက်စာဖတ်တဲ့အခါ၊ ဒါမှမဟုတ် ညအိပ်မီးအိမ်အဖြစ် အသုံးပြုတဲ့အခါ စိတ်ကို အေးချမ်းစေမယ့် နွေးထွေးတဲ့ ခံစားချက်ကို ပေးစွမ်းနိုင်မှာပါ။ Cottagecore နဲ့ Ghibli Style ချစ်သူတွေရဲ့ မှန်တင်ခုံနဲ့ စာကြည့်စားပွဲတွေပေါ်မှာ ရှိကိုရှိသင့်တဲ့ အလန်းစား လက်မှုအနုပညာပစ္စည်းလေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 22cm x 12cm (စာပွဲတင် ညအိပ်မီးအိမ် အနေတော်အရွယ်အစား)\r\n🌱 Feature: Energy-saving LED Lights, Hand-knitted Crochet Design, Warm-White Glow",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/bloomic_id_1.webp",
+    "name": "Bloomic Luxury Crochet Flower Bouquet",
+    "category": 5,
+    "price": 48000,
+    "description": "✨ ဘယ်တော့မှ ညှိုးနွမ်းမသွားဘဲ ထာဝရဖူးပွင့်နေမယ့် အလှတရားကို ပေးစွမ်းနိုင်မယ့် Bloomic Premium လက်ယက်ချည်ထိုး ပန်းစည်းဘူးကြီး ဖြစ်ပါတယ်။ အရည်အသွေးမြင့် ချည်သားနုနုလေးတွေနဲ့ လီလီပန်း၊ တျူးလစ်ပန်းနဲ့ ချစ်စရာ ပန်းဖူးလေးတွေကို သဘာဝအတိုင်း အရောင်အသွေးစုံလင်စွာ တစ်ပွင့်ချင်းစီ အသေးစိတ် လက်မှုပညာနဲ့ ထိုးထားတာပါဗျာ။ ရိုးရှင်းပြီး ဆန်းသစ်တဲ့ အဖြူရောင် Cylinder ဘူးလေးထဲမှာ အလှဆင်ပေးထားတာမို့ ဧည့်ခန်းစားပွဲ၊ မှန်တင်ခုံပေါ်မှာ ပန်းအိုးအဖြစ် အမြဲတမ်း ကျော့ရှင်းစွာ ထားရှိနိုင်သလို၊ ချစ်ရတဲ့သူတွေကို အမှတ်တရ လက်ဆောင်ပေးဖို့အတွက်လည်း တကယ့်ကို အဆင့်မြင့်ပြီး မျက်နှာပွင့်စေမယ့် Premium လက်ရာမွန် ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 28cm x 20cm (ဝေဝေဆာဆာ ရှိသော စားပွဲတင် ပန်းစည်းဘူး အရွယ်အစား)\r\n🌱 Material: Premium Soft Cotton Yarn / Luxury Cylinder Gift Box",
+    "is_sale": false,
+    "sale_price": 45000
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__30.jpeg",
+    "name": "Sweet Bunny Fluff & Flower Trinket Dish",
+    "category": 7,
+    "price": 18000,
+    "description": "✨ မိမိရဲ့ မှန်တင်ခုံထောင့်လေးကို ပုံပြင်ဆန်ဆန်နဲ့ ချစ်စရာကောင်းသွားစေမယ့် ယုန်လေးနှစ်ကောင်နှင့် ပန်းပွင့်ပုံစံ လက်လုပ် ကြွေထည်ဗန်းလေး ဖြစ်ပါတယ်။ အသေးစိတ် ပုံဖော်ထားတဲ့ ချစ်စရာ ယုန်အမွှေးပွလေးနှစ်ကောင်က ပန်းရောင်ပန်းပွင့်ဖတ်လေးကို ယှဉ်တွဲမထားတဲ့ ဒီဇိုင်းလေးမို့ တကယ့်ကို အသည်းယားစရာပါဗျာ။ လက်စွပ်၊ နားကပ်၊ ဆွဲကြိုးလေးတွေနဲ့ ကလစ်လေးတွေကို သေသပ်စွာ တင်ထားနိုင်ပြီး အိပ်ခန်းအလှကို Cottagecore Aesthetic အပြည့် ပေးစွမ်းနိုင်မှာပါ။ ယုန်လေးတွေနဲ့ လက်မှုပစ္စည်း ချစ်တတ်သူတွေအတွက် အကောင်းဆုံး စားပွဲတင်အသုံးအဆောင်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 14cm x 8cm (လက်ဝတ်ရတနာတင်ရန် အနေတော် စားပွဲတင်အရွယ်အစား)\r\n🌱 Material: Glossy Glazed Ceramic / High-Quality Clay Art",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Panda_time.jpeg",
+    "name": "Cute Panda Time Ceramic Clay Clock",
+    "category": 7,
+    "price": 35000,
+    "description": "✨ စက္ကန့်တိုင်းကို ချစ်စရာကောင်းတဲ့ ပုံပြင်ကမ္ဘာလေးလို ဖြတ်သန်းနိုင်ဖို့ \"Panda Time\" စားပွဲတင် ရွှံ့စေးလက်ရာမြောက် နာရီလေး ဖြစ်ပါတယ်ဗျာ။ အေးချမ်းလှတဲ့ ဝါးတောစိမ်းစိမ်းလေးနဲ့ ကြာကန်လေးထဲမှာ ပန်ဒါလေး ၃ ကောင်ရဲ့ ချစ်စရာ လှုပ်ရှားမှုပုံစံတွေကို 3D Clay Art နဲ့ အသေးစိတ် ပုံဖော်ထုဆစ်ထားတာပါ။ စာကြည့်စားပွဲပေါ်မှာပဲထားထား၊ ညအိပ်ရာဘေးက စင်လေးပေါ်မှာပဲ တင်ထားထား အခန်းတွင်းအလှကို ပိုမိုတောက်ပစေမယ့်အပြင်၊ တကယ့်ကို အသုံးဝင်တဲ့ နာရီလေးလည်း ဖြစ်ပါတယ်။ ကလေးတွေ၊ မိန်းကလေးတွေနဲ့ ပန်ဒါချစ်သူတွေ မြင်ရင် လုံးဝအသည်းယားပြီး စွဲလန်းသွားစေမယ့် ထိပ်တန်း လက်မှုအနုပညာ ပစ္စည်းမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰🐼🎋\r\n📐 Size: Approx. 12cm Diameter (စားပွဲတင် သင့်တော်သော အဝိုင်းအရွယ်အစား)\r\n🌱 Feature: High-Quality Quartz Clock Mechanism, Detailed 3D Clay Crafts",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__33.jpeg",
+    "name": "Aesthetic Teddy Bear Sculptural Coffee Table",
+    "category": 7,
+    "price": 150000,
+    "description": "✨ သင့်ရဲ့ ဧည့်ခန်း သို့မဟုတ် အိပ်ခန်းလေးကို ဓာတ်ဖမ်းလို့ကောင်းပြီး ပုံပြင်ဆန်ဆန် ချစ်စရာကောင်းသွားစေမယ့် ဝက်ဝံဖြူလေး ပုံစံ ဘေးတွဲစားပွဲအလှ (Side Table) ကြီး ဖြစ်ပါတယ်ဗျာ။ အဖြူရောင် ဝက်ဝံဖြူလေးက စာအုပ်ပုံလေးကို ခေါင်းပေါ်တင်ပြီး အပေါ်က စားပွဲဝိုင်းပြားကြီးကို ထိန်းပေးထားတဲ့ ဖန်တီးမှုက တကယ့်ကို ဆန်းသစ်ပြီး အမြင်ဆန်းလှပါတယ်နော်။ ဧည့်ခန်းထဲမှာ ဆိုဖာဘေး ကော်ဖီခွက်တင်ဖို့ပဲဖြစ်ဖြစ်၊ အိပ်ရာဘေးမှာ ညအိပ်မီးအိမ်နဲ့ စာအုပ်တင်ဖို့ပဲဖြစ်ဖြစ် အသုံးပြုနိုင်တဲ့အပြင်၊ အခန်းထဲ ဝင်လာသူတိုင်း ငေးကြည့်ရမယ့် Statement ပရိဘောဂအလှစစ်စစ်ပါ။ ပရိဘောဂ ဆန်းဆန်းလေးတွေနဲ့ တိရစ္ဆာန်ရုပ် Aesthetic ကြိုက်နှစ်သက်သူတွေ အိမ်အတွက် လုံးဝ အပြတ်အသတ် ဝယ်ယူသင့်တဲ့ ထိပ်တန်း လက်ရာမွန်ကြီး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 50cm Height x 40cm Width (ဧည့်ခန်း/အိပ်ခန်းသုံး အနေတော် ဘေးတွဲစားပွဲ အရွယ်အစား)\r\n🌱 Material: High-Quality Premium Resin / Smooth Matte Finish (အကြမ်းခံပြီး သန့်ရှင်းရလွယ်ကူသော မက်စ်သားစစ်စစ်)",
+    "is_sale": false,
+    "sale_price": 145000
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__31.jpeg",
+    "name": "Cute Teddy Bear Picnic Clay Jewelry Box",
+    "category": 7,
+    "price": 16500,
+    "description": "✨ မိမိရဲ့ တန်ဖိုးရှိတဲ့ နားကပ်၊ လက်စွပ်နဲ့ အဆောင်လက်ဖွဲ့ သေးသေးလေးတွေကို စနစ်တကျ သိမ်းဆည်းပေးမယ့် ဝက်ဝံညိုလေးရဲ့ ပျော်ပွဲစားစတိုင်လ် လက်လုပ် ရွှံ့စေးဘူးလေး ဖြစ်ပါတယ်ဗျာ။ အစိမ်းနုရောင် ဘူးကိုယ်ထည်ပေါ်မှာ ကြယ်ပွင့်ဝါဝါလေးတွေ ခြယ်သထားပြီး အဖုံးပေါ်မှာတော့ ကော်ဇောလေးပေါ် မုန့်စားထိုင်နေတဲ့ 3D ဝက်ဝံရုပ်လေးကို သေသေသပ်သပ် ပုံဖော်ပေးထားတာပါနော်။ မှန်တင်ခုံပေါ်မှာ တင်ထားရုံနဲ့တင် အခန်းလေးကို ပုံပြင်ဆန်ဆန် Cottagecore Aesthetic အပြည့် ပေးစွမ်းနိုင်မှာပါ။ ချစ်စရာ ဝက်ဝံရုပ်လေးတွေနဲ့ လက်မှုပစ္စည်း စုဆောင်းရတာ ဝါသနာပါသူတွေအတွက် လုံးဝ အသည်းယားစရာ လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 8cm x 6cm (လက်စွပ်၊ နားကပ် အသေးအမွှားများ ထည့်ရန် အနေတော်ဘူး အရွယ်အစား)\r\n🌱 Material: Glossy Glazed Ceramic / High-Quality Clay Art",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 37,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__34.jpeg",
+    "name": "Cute Bunny & Carrot Succulent Planter",
+    "category": 7,
+    "price": 25000,
+    "description": "✨ သင့်ရဲ့ အပင်စုဆောင်းမှုလေးတွေကို ပိုပြီး သက်ဝင်လှုပ်ရှားပြီး ချစ်စရာကောင်းသွားစေမယ့် ယုန်ဖြူလေးနှင့် မုန်လာဥနီပုံစံ အလှစိုက်ပန်းအိုး (Planter) လေး ဖြစ်ပါတယ်ဗျာ။ ဂျင်းဘောင်းဘီအပြာလေးနဲ့ ပျော်ရွှင်နေတဲ့ ယုန်ဖြူလေးက သူ့ကျောပေါ်မှာ မုန်လာဥနီအကြီးကြီးကို လွယ်ထားတဲ့ ဆန်းသစ်တဲ့ဒီဇိုင်းလေး ဖြစ်ပါတယ်နော်။ မုန်လာဥနီခွက်လေးထဲမှာ မိမိနှစ်သက်တဲ့ Succulents ကျောက်စိမ်းပင်လေးတွေ၊ ရှားစောင်းပင်လေးတွေ စိုက်ပျိုးထားနိုင်လို့ အပင်ချစ်သူ (Plant Parents) တွေအတွက် အသည်းစွဲဖြစ်မှာ သေချာပါတယ်။ ဝရန်တာ၊ အိမ်ရှေ့ဝရံတာ သို့မဟုတ် ပြတင်းပေါက်နားမှာ တင်ထားရုံနဲ့တင် တစ်အိမ်လုံးကို စိမ်းစိုပြီး Cottagecore Vibes အပြည့် ပေးစွမ်းနိုင်မယ့် ထိပ်တန်း အလှဆင်ပန်းအိုးလေး ဖြစ်ပါတယ်ဗျာ။ 🥰🌱\r\n📐 Size: Approx. 18cm Length x 14cm Height (စားပွဲတင်/ဝရန်တာတင် သင့်တော်သော အနေတော် ပန်းအိုးအရွယ်အစား)\r\n🌱 Material: High-Quality Durable Resin / Weather-resistant Painted (အပင်စိုက်ရန် အကြမ်းခံပြီး ရေစိုခံသော ပစ္စည်း)",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 38,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__35.jpeg",
+    "name": "Kawaii Pastel Cat & Bunny Nightlight",
+    "category": 7,
+    "price": 18000,
+    "description": "✨ သင့်ရဲ့ အိပ်ခန်းလေးကို နွေးထွေးအေးချမ်းတဲ့ အလင်းရောင်လေးတွေနဲ့ အလှဆင်ပေးမယ့် အသည်းယားစရာ ကြောင်လေးနဲ့ ယုန်လေးပုံစံ ညအိပ်မီးအိမ် (Nightlight) လေး ဖြစ်ပါတယ်ဗျာ။ လုံးဝိုင်းဝိုင်း အရုပ်လေးတွေထဲကနေ ဖြာထွက်လာတဲ့ အလင်းရောင်က မျက်စိမကျိန်းစေဘဲ စိတ်ကို သက်သောင့်သက်သာ ဖြစ်စေပါတယ်။ ညဘက် စာဖတ်ဖို့ပဲဖြစ်ဖြစ်၊ အိပ်ရာဘေး စင်လေးပေါ်မှာ အလှတင်ထားဖို့ပဲဖြစ်ဖြစ် အရမ်းကို လိုက်ဖက်ပါတယ်။ Pastel ကာလာလေးတွေနဲ့မို့ အခန်းလေးကို Kawaii Aesthetic အပြည့် ပေးစွမ်းနိုင်ပြီး ကလေးတွေနဲ့ မိန်းကလေးတွေအတွက် တကယ့်ကို အကြိုက်တွေ့စေမယ့် လက်ဆောင်လေးပဲ ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 10cm x 12cm (စားပွဲတင် ညအိပ်မီးအိမ် အနေတော်အရွယ်အစား)\r\n🌱 Feature: Warm LED Light / Soft & Aesthetic Pastel Colors",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 39,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__36.jpeg",
+    "name": "Curious Cat & Betta Fish Ceramic Mug",
+    "category": 7,
+    "price": 22000,
+    "description": "✨ သင့်ရဲ့ ကော်ဖီ သို့မဟုတ် လက်ဖက်ရည်သောက်တဲ့ အချိန်လေးတွေကို ပိုပြီး ပျော်စရာကောင်းပြီး အမြင်ဆန်းသွားစေမယ့် ကြောင်ကွက်ကျားလေးနှင့် ငါးဖမ်းစက်ပုံစံ 3D ကြွေဖန်ခွက်လေး ဖြစ်ပါတယ်ဗျာ။ ခွက်ရဲ့လက်ကိုင်ကို ချစ်စရာ 3D ကြောင်လေးပုံစံ ဖန်တီးထားပြီး၊ အဲ့ဒီကြောင်လေးက ခွက်ပေါ်မှာရှိတဲ့ ရွှေဝါရောင် ငါးဖမ်းစက် (Betta Fish) လေးကို လက်ကလေးနဲ့ကုတ်ပြီး စုစုစမ်းစမ်း ချောင်းကြည့်နေတဲ့အူယားစရာ ဒီဇိုင်းလေးပါနော်။ မနက်ခင်း ကော်ဖီသောက်တဲ့အခါပဲသုံးသုံး၊ စာပွဲပေါ်မှာ ခဲတံညှပ်ခွက်အဖြစ်ပဲ အလှထားထား အခန်းတွင်း Vibes ကို ပိုပြီး သက်ဝင်စေမှာ သေချာပါတယ်။ ကြောင်ချစ်သူတွေနဲ့ ထူးထူးဆန်းဆန်း ကြွေထည်ခွက် စုဆောင်းရတာ ကြိုက်သူတွေအတွက် မရှိမဖြစ် လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 350ml Capacity (နေ့စဉ်သုံးရန် အနေတော် ခွက်အရွယ်အစား)\r\n🌱 Material: Premium Glazed Ceramic / 3D Hand-painted Craft",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 40,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Instagram.jpeg",
+    "name": "Mini Animal Companions Birthday Candle holder",
+    "category": 7,
+    "price": 6500,
+    "description": "✨ သင် သို့မဟုတ် သင့်သူငယ်ချင်းတွေရဲ့ မွေးနေ့ရက်မြတ်လေးကို ပိုပြီး အမှတ်တရဖြစ်ပြီး ပုံပြင်ဆန်ဆန် ချစ်ဖို့ကောင်းသွားစေမယ့် တိရစ္ဆာန်ရုပ်စုံ ရွှံ့စေးဖယောင်းတိုင်စိုက်စင်လေးတွေ ဖြစ်ပါတယ်ဗျာ။ ခွေးလေး၊ ကြောင်လေး၊ ဘဲလေး၊ ပင်ဂွင်းလေး စတဲ့ သက်ဝင်လှုပ်ရှားနေတဲ့ အရုပ်အသေးစားလေးတွေရဲ့ ခေါင်းပေါ်မှာ မွေးနေ့ဖယောင်းတိုင်လေးတွေ စိုက်ထူနိုင်အောင် လက်မှုပညာနဲ့ သေသေသပ်သပ် ဖန်တီးပေးထားတာပါနော်။ မွေးနေ့ကိတ်ပေါ်မှာ အလှစိုက်ဖို့ပဲဖြစ်ဖြစ်၊ ပါတီပွဲစားပွဲပေါ်မှာ မီးထွန်းဖို့ပဲဖြစ်ဖြစ် အရမ်းကို ချစ်စရာကောင်းပြီး အမြင်ဆန်းစေမှာ သေချာပါတယ်။ တစ်ကောင်ချင်းစီ စုဆောင်းပြီး အခန်းထဲမှာ အလှတင်ထားရင်လည်း စိတ်ကို ပျော်ရွှင်စေမယ့် အသည်းယားစရာ လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 3cm - 4cm Height per piece (ကိတ်မုန့်ပေါ်တင်ရန် အနေတော် Miniature အရွယ်အစား)\r\n🌱 Material: High-Quality Non-toxic Clay Art / Glossy Coated",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 41,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/simgirok_____심기록_정규수강생님_작품입니다____Instagram.jpeg",
+    "name": "Cool Teddy Eyeglass Holder Tray",
+    "category": 7,
+    "price": 16500,
+    "description": "✨ သင့်ရဲ့ မျက်မှန်လေးတွေကို စားပွဲပေါ်မှာ ဟိုနားဒီနား ပစ်မထားမိဘဲ အမြဲတမ်း စတိုင်လ်ကျကျနဲ့ သေသပ်နေစေမယ့် ဝက်ဝံရုပ် မျက်မှန်တင်ခွက် (Eyeglass Holder) လေး ဖြစ်ပါတယ်ဗျာ။ အစိမ်းနုရောင် ဦးထုပ်လေးဆောင်းထားတဲ့ ဝက်ဝံညိုလေးရဲ့ မျက်နှာပေါ်မှာ မိမိရဲ့ မျက်မှန် သို့မဟုတ် နေကာမျက်မှန်ကို တင်ပေးလိုက်ရုံပါပဲ။ မျက်မှန်တင်လိုက်တဲ့အခါ ဝက်ဝံလေးကိုယ်တိုင် မျက်မှန်တပ်ထားသလိုမျိုး ဖြစ်သွားတဲ့ 3D အိုင်ဒီယာလေးက တကယ့်ကို ချစ်စရာကောင်းပြီး အမြင်ဆန်းလွန်းပါတယ်နော်။ စာကြည့်စားပွဲပေါ်မှာပဲဖြစ်ဖြစ်၊ ရုံးခန်းစားပွဲပေါ်မှာပဲဖြစ်ဖြစ် ထားရှိရုံနဲ့တင် Quirky Aesthetic Vibes ကို ရရှိစေမှာပါ။ မျက်မှန်တပ်တတ်တဲ့ သူငယ်ချင်းတွေကို အမှတ်တရ လက်ဆောင်ပေးဖို့အတွက်လည်း အလွန်အဆင်ပြေတဲ့ လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n✨ သင့်ရဲ့ မျက်မှန်လေးတွေကို စားပွဲပေါ်မှာ ဟိုနားဒီနား ပစ်မထားမိဘဲ အမြဲတမ်း စတိုင်လ်ကျကျနဲ့ သေသပ်နေစေမယ့် ဝက်ဝံရုပ် မျက်မှန်တင်ခွက် (Eyeglass Holder) လေး ဖြစ်ပါတယ်ဗျာ။ အစိမ်းနုရောင် ဦးထုပ်လေးဆောင်းထားတဲ့ ဝက်ဝံညိုလေးရဲ့ မျက်နှာပေါ်မှာ မိမိရဲ့ မျက်မှန် သို့မဟုတ် နေကာမျက်မှန်ကို တင်ပေးလိုက်ရုံပါပဲ။ မျက်မှန်တင်လိုက်တဲ့အခါ ဝက်ဝံလေးကိုယ်တိုင် မျက်မှန်တပ်ထားသလိုမျိုး ဖြစ်သွားတဲ့ 3D အိုင်ဒီယာလေးက တကယ့်ကို ချစ်စရာကောင်းပြီး အမြင်ဆန်းလွန်းပါတယ်နော်။ စာကြည့်စားပွဲပေါ်မှာပဲဖြစ်ဖြစ်၊ ရုံးခန်းစားပွဲပေါ်မှာပဲဖြစ်ဖြစ် ထားရှိရုံနဲ့တင် Quirky Aesthetic Vibes ကို ရရှိစေမှာပါ။ မျက်မှန်တပ်တတ်တဲ့ သူငယ်ချင်းတွေကို အမှတ်တရ လက်ဆောင်ပေးဖို့အတွက်လည်း အလွန်အဆင်ပြေတဲ့ လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n✨ သင့်ရဲ့ မျက်မှန်လေးတွေကို စားပွဲပေါ်မှာ ဟိုနားဒီနား ပစ်မထားမိဘဲ အမြဲတမ်း စတိုင်လ်ကျကျနဲ့ သေသပ်နေစေမယ့် ဝက်ဝံရုပ် မျက်မှန်တင်ခွက် (Eyeglass Holder) လေး ဖြစ်ပါတယ်ဗျာ။ အစိမ်းနုရောင် ဦးထုပ်လေးဆောင်းထားတဲ့ ဝက်ဝံညိုလေးရဲ့ မျက်နှာပေါ်မှာ မိမိရဲ့ မျက်မှန် သို့မဟုတ် နေကာမျက်မှန်ကို တင်ပေးလိုက်ရုံပါပဲ။ မျက်မှန်တင်လိုက်တဲ့အခါ ဝက်ဝံလေးကိုယ်တိုင် မျက်မှန်တပ်ထားသလိုမျိုး ဖြစ်သွားတဲ့ 3D အိုင်ဒီယာလေးက တကယ့်ကို ချစ်စရာကောင်းပြီး အမြင်ဆန်းလွန်းပါတယ်နော်။ စာကြည့်စားပွဲပေါ်မှာပဲဖြစ်ဖြစ်၊ ရုံးခန်းစားပွဲပေါ်မှာပဲဖြစ်ဖြစ် ထားရှိရုံနဲ့တင် Quirky Aesthetic Vibes ကို ရရှိစေမှာပါ။ မျက်မှန်တပ်တတ်တဲ့ သူငယ်ချင်းတွေကို အမှတ်တရ လက်ဆောင်ပေးဖို့အတွက်လည်း အလွန်အဆင်ပြေတဲ့ လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 15cm x 8cm (မျက်မှန်နှင့် အသေးအမွှားပစ္စည်းများ တင်ရန် အနေတော်ခွက် အရွယ်အစား)\r\n🌱 Material: Glossy Glazed Ceramic / High-Quality Clay Art",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 42,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__37.jpeg",
+    "name": "Cute Giraffe Desktop Pen Holder & Tray",
+    "category": 7,
+    "price": 14500,
+    "description": "✨ သင့်ရဲ့ စာကြည့်စားပွဲ သို့မဟုတ် ရုံးခန်းစားပွဲလေးကို သပ်ရပ်သန့်ရှင်းပြီး စိတ်ကြည်လင်စရာကောင်းသွားစေမယ့် သစ်ကုလားအုတ်လေး ပုံစံ ဘက်စုံသုံး ခဲတံညှပ်ခွက် (Desk Organizer) လေး ဖြစ်ပါတယ်ဗျာ။ ချစ်စရာ မျက်လုံးဝိုင်းဝိုင်း သစ်ကုလားအုတ်ဝါးတားလေးရဲ့ ဘေးမှာ ဘောပင်၊ ခဲတံနဲ့ ပေတံတွေ ထည့်စိုက်နိုင်မယ့် ခွက်အကန့် ပါဝင်ပြီး၊ အောက်ခြေမှာတော့ ခဲဖျက်နဲ့ ကလစ်အသေးလေးတွေ စနစ်တကျ ထည့်ထားနိုင်တဲ့ Tray အကန့်လေးပါ တွဲဖက်ပါရှိတာမို့ အရမ်းကို အသုံးဝင်ပါတယ်နော်။ စာပွဲပေါ်မှာ တင်ထားရုံနဲ့တင် အခန်းတွင်းကို လန်းဆန်းတဲ့ Safari Vibes လေး ပေးစွမ်းနိုင်မှာပါ။ ကျောင်းသူကျောင်းသားတွေ၊ ဆရာမတွေနဲ့ စာရေးကိရိယာအလှလေးတွေ စုဆောင်းရတာ ကြိုက်နှစ်သက်သူတွေအတွက် မရှိမဖြစ် လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 15cm Height x 12cm Width (စာကြည့်စားပွဲတင် အနေတော် အရွယ်အစား)\r\n🌱 Material: Premium High-Quality Matte Resin / Eco-friendly Durable Material",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 43,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/Aesthetic_duck_decor_for_your_shelf_and_desk.jpeg",
+    "name": "Cute Chubby Duck Hugging Bookends",
+    "category": 7,
+    "price": 24500,
+    "description": "✨ သင့်ရဲ့ စာအုပ်စင် ဒါမှမဟုတ် စာဖတ်တဲ့ နေရာလေးကို ပိုပြီး နွေးထွေးအေးချမ်းပြီး ချစ်စရာကောင်းသွားစေမယ့် ဘဲဥဝါတုတ်တုတ်လေးများ စာအုပ်ညှပ် (Bookends) တစ်စုံ ဖြစ်ပါတယ်ဗျာ။ ဝဝကိတ်ကိတ် ဘဲဝါလေးနှစ်ကောင်က သင့်ရဲ့ ချစ်လှစွာသော စာအုပ်တွေကို ဘေးတစ်ဖက်တစ်ချက်ကနေ လက်ကလေးတွေနဲ့ ဝိုင်းဖက်ပြီး ထိန်းပေးထားတဲ့ ဆန်းသစ်ပြီး အသည်းယားစရာ ဒီဇိုင်းလေးပါနော်။ စာအုပ်စင်ပေါ်မှာပဲဖြစ်ဖြစ်၊ စာကြည့်စားပွဲပေါ်မှာပဲဖြစ်ဖြစ် တင်ထားရုံနဲ့တင် တစ်ခန်းလုံးကို ပုံပြင်ဆန်ဆန် Cozy Vibes အပြည့် ပေးစွမ်းနိုင်မှာပါ။ စာဖတ်ရတာ ဝါသနာပါသူ (Bookworms) တွေ၊ ကျောင်းသူကျောင်းသားတွေနဲ့ စားပွဲတင်အလှဆင်ပစ္စည်း ထူးထူးဆန်းဆန်းလေးတွေ စုဆောင်းရတာ ကြိုက်နှစ်သက်သူတွေအတွက် အကောင်းဆုံး လက်ရာမွန်လေး ဖြစ်ပါတယ်ဗျာ။ 🥰✨\r\n📐 Size: Approx. 12cm Height x 10cm Width per piece (စာအုပ်များကို ခိုင်ခံ့စွာ ထိန်းပေးနိုင်သော အနေတော် အရွယ်အစား)\r\n🌱 Material: Heavy-Duty Premium Resin / Non-slip Base (စာအုပ်အလေးချိန်ကို ထိန်းရန် အောက်ခြေအကြမ်းခံပစ္စည်းဖြင့် ပြုလုပ်ထားပါသည်)",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 44,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/_Whimsical_Mushroom_Jar___Cozy_Cottagecore_Decor.jpeg",
+    "name": "Whimsical  Mushroom Jar",
+    "category": 8,
+    "price": 15000,
+    "description": "A dreamy mushroom jar 🍄✨ filled with tiny notes, flowers, and whimsical cottagecore details. Perfect for adding a cozy, magical touch to your desk, bedroom, or Pinterest-inspired room decor. 🌸🕯️🌿\r\n✨ စိတ်ကူးယဉ်ဆန်ဆန် မှိုပုံစံအိမ်လေးနဲ့ ဖန်ပုလင်းငယ်အတွင်းမှာ ချစ်စရာမှတ်စုလေးတွေ၊ ပန်းပွင့်လေးတွေနဲ့ Cottagecore ပုံစံအသေးစိတ် လက်ရာမြောက်စွာ ထည့်သွင်းဖန်တီးထားတဲ့ “Whimsical Mushroom Jar” အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်။ သင့်ရဲ့ အလုပ်စားပွဲ၊ အိပ်ခန်း သို့မဟုတ် Pinterest ဆန်ဆန် အခန်းအလှဆင်ပြင်ဆင်မှုတွေအတွက် နွေးထွေးပြီး မှော်ဆန်တဲ့ အလှတရားကို ယူဆောင်လာပေးမှာ ဖြစ်ပါတယ်။ 🍄✨\r\n 📐 Size: Approx. 14cm x 10cm (စားပွဲတင် သို့မဟုတ် အလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n 🛠️ Material: Glass Jar, Air-dry Clay, and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 45,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Cute_Mushroom_Lamp_Decor____Whimsical_Cottagecore_Room_Ideas.jpeg",
+    "name": "Cute Mushroom Lamp",
+    "category": 8,
+    "price": 25000,
+    "description": "a little magic to your space with this adorable mushroom house lamp! 🍄🌸✨ This cute cottagecore decor idea features soft pink tones, tiny flowers, warm glowing lights, and a whimsical fairy-tale feel. Perfect for cozy bedroom decor, cute room ideas, dreamy home decor, whimsical lighting, and cottagecore aesthetic inspiration. Save this idea for your next cozy room makeover!\r\n✨ မှော်ဆန်ပြီး ချစ်စရာကောင်းတဲ့ “Cute Mushroom House Lamp” လေးနဲ့ သင့်ရဲ့ အခန်းတွင်းနေရာလေးကို ပိုမိုတောက်ပ သက်ဝင်လာစေမှာ ဖြစ်ပါတယ်။ ပန်းရောင်သမ်းတဲ့ အဆင်း၊ သေးငယ်တဲ့ ပန်းပွင့်လေးတွေ၊ နွေးထွေးတဲ့ မီးရောင်ခြယ်မှုန်းချက်တွေနဲ့ ပုံပြင်ဆန်ဆန် စိတ်ကူးယဉ်ဆန်တဲ့ cottagecore အလှတရားကို အပြည့်အဝ ပေးစွမ်းနိုင်တဲ့ အလှဆင် မီးအိမ်လေး ဖြစ်ပါတယ်ဗျာ။ 🍄✨\r\n 📐 Size: Approx. 22cm x 15cm (အခန်းတွင်း သို့မဟုတ် စားပွဲတင် အလှဆင်ရန် အသင့်တော်ဆုံး အရွယ်အစား)\r\n 🛠️ Material: Resin, Air-dry Clay, LED Light Components, and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 46,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__38.jpeg",
+    "name": "Red mushroom light candles holder",
+    "category": 8,
+    "price": 12000,
+    "description": "✨ Bring a touch of magical woodland charm to your space with these handcrafted mushroom clay candle holders. 100% handmade and painted with cute red-and-white toadstool caps, perfect for aesthetic room decor and cozy candlelit evenings. 🍄🕯️✨\r\n✨ လက်ရာမြောက် မှိုပုံစံ clay ဖယောင်းတိုင်အိုးလေးတွေနဲ့ သင့်ရဲ့ အခန်းတွင်းနေရာလေးကို မှော်ဆန်တဲ့ သစ်တောလေးတစ်ခုလို လှပစတိုင်ကျစေမှာ ဖြစ်ပါတယ်။ 100% လက်ရာသီးသန့် ဖန်တီးထားပြီး ချစ်စရာအနီနဲ့အဖြူ ရောစပ်ထားတဲ့ မှိုထိပ်ဖူးဒီဇိုင်းလေးတွေ ဖြစ်တာကြောင့် အလှဆင်ဖို့နဲ့ နွေးထွေးတဲ့ ဖယောင်းတိုင်မီးရောင် လွှမ်းခြုံထားတဲ့ ညချမ်းလေးတွေအတွက် အလွန်ပဲ ပြီးပြည့်စုံပါတယ်။ 🍄✨\r\n 📐 Size: Approx. 10cm x 8cm (စားပွဲတင် သို့မဟုတ် အလှဆင်ရန် အသင့်တော်ဆုံး အရွယ်အစား)  \r\n 🛠️ Material: Air-dry Clay, Ceramic Base, and Hand-painted Finish",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 47,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__39.jpeg",
+    "name": "Cute Whimsical Mushroom Wall Hanger",
+    "category": 8,
+    "price": 8500,
+    "description": "Add a charming cottagecore touch to your home entryways, bedrooms, or nursery with this adorable mushroom family wall rack! Handcrafted from high-quality wood, each mushroom features a cute face, vibrant red cap with white dots, and sturdy lower hooks for hanging keys, coats, bags, or light accessories. Functional, decorative, and full of fairytale magic\r\n✨ ချစ်စရာကောင်းတဲ့ မှိုမိသားစု ပုံစံနံရံချိတ်လေးနဲ့ သင့်အိမ်ရဲ့ အဝင်ဝ၊ အိပ်ခန်း သို့မဟုတ် ကလေးအခန်းလေးတွေကို ဆွဲဆောင်မှုရှိတဲ့ cottagecore အလှတရားတွေ ထည့်သွင်းလိုက်ပါ။ အရည်အသွေးမြင့် သစ်သားနဲ့ လက်ရာမြောက်စွာ ဖန်တီးထားပြီး၊ ချစ်စရာကောင်းတဲ့ မျက်နှာလေးတွေ၊ အဖြူစက်ပါတဲ့ တောက်ပသော အနီရောင်မှိုထိပ်ဖူးလေးတွေနဲ့ သော့၊ အင်္ကျီ၊ အိတ် ဒါမှမဟုတ် အခြားပစ္စည်းပေါ့ပါးလေးတွေကို ချိတ်ဆွဲနိုင်မယ့် ခိုင်ခံ့တဲ့ ချိတ်များ ပါဝင်ပါတယ်။ အသုံးလည်းဝင်၊ အလှလည်းဆင်နိုင်ပြီး ပုံပြင်ဆန်ဆန် စိတ်ကူးယဉ်ဆန်မှုကို အပြည့်အဝပေးစွမ်းနိုင်ပါတယ်ဗျာ။ 🍄✨\r\n 📐 Size: Approx. 25cm x 15cm (နံရံတွင် တပ်ဆင်ရန် သင့်တော်၍ သပ်ရပ်လှပသော အရွယ်အစား)\r\n 🛠️ Material: High-quality Wood, Hand-painted Finish, and Metal Hooks",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 48,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__40.jpeg",
+    "name": "Mushroom  Ceramic Succulent Planter",
+    "category": 8,
+    "price": 18000,
+    "description": "Bring a fairytale touch to your indoor garden with this adorable mushroom house planter! Beautifully crafted with a vibrant red-and-white toadstool cap, a tiny wooden-style fence, and a cute arched door, this pot is specially designed for small succulents, cacti, or indoor herbs. Perfect for aesthetic room decor, desks, or as a charming gift for plant lovers.\r\n✨ ချစ်စရာကောင်းတဲ့ မှိုမိသားစု ပုံစံနံရံချိတ်လေးနဲ့ သင့်အိမ်ရဲ့ အဝင်ဝ၊ အိပ်ခန်း သို့မဟုတ် ကလေးအခန်းလေးတွေကို ဆွဲဆောင်မှုရှိတဲ့ cottagecore အလှတရားတွေ ထည့်သွင်းလိုက်ပါ။ အရည်အသွေးမြင့် သစ်သားနဲ့ လက်ရာမြောက်စွာ ဖန်တီးထားပြီး၊ ချစ်စရာကောင်းတဲ့ မျက်နှာလေးတွေ၊ အဖြူစက်ပါတဲ့ တောက်ပသော အနီရောင်မှိုထိပ်ဖူးလေးတွေနဲ့ သော့၊ အင်္ကျီ၊ အိတ် ဒါမှမဟုတ် အခြားပစ္စည်းပေါ့ပါးလေးတွေကို ချိတ်ဆွဲနိုင်မယ့် ခိုင်ခံ့တဲ့ ချိတ်များ ပါဝင်ပါတယ်။ အသုံးလည်းဝင်၊ အလှလည်းဆင်နိုင်ပြီး ပုံပြင်ဆန်ဆန် စိတ်ကူးယဉ်ဆန်မှုကို အပြည့်အဝပေးစွမ်းနိုင်ပါတယ်ဗျာ။ 🍄✨\r\n 📐 Size: Approx. 25cm x 15cm (နံရံတွင် တပ်ဆင်ရန် သင့်တော်၍ သပ်ရပ်လှပသော အရွယ်အစား)\r\n 🛠️ Material: High-quality Wood, Hand-painted Finish, and Metal Hooks",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 49,
+  "fields": {
+    "product_type": "art",
+    "image": "product_images/__2_XYEZ4hi.jpeg",
+    "name": "Kiki's Delivery Service Clay Ceramic Clock",
+    "category": 11,
+    "price": 25000,
+    "description": "Tell time with a magic touch! Inspired by Studio Ghibli's beloved Kiki’s Delivery Service, this handcrafted ceramic/clay clock features iconic miniatures including Kiki, the black cat Jiji, red bow, fresh bread, radio, and white cat. Designed with soft cream colors and 3D textured numbers, it makes a stunning centerpiece for your room wall or desk setup!\r\n\r\n\r\nInspired by: Kiki's Delivery Service (Studio Ghibli)\r\n\r\n\r\nMaterial: High-quality Handmade Clay / Ceramic Finish\r\n\r\n\r\nPerfect for: Aesthetic Room Decor, Ghibli Fan Gifts, Desktop/Wall Clock\r\n\r\n\r\nStudio Ghibli ရဲ့ Kiki's Delivery Service အန်နီမေးရှင်းထဲက ဇာတ်ကောင်လေးတွေနဲ့ အမှတ်တရပစ္စည်းလေးတွေကို 3D ရွှံ့စေးရုပ်စေးအလှပုံစံမျိုး ပြုလုပ်ထားတဲ့ Handmade Clay နာရီ လေး ဖြစ်ပါတယ်။ နာရီဂဏန်း ၁၂ လုံးနေရာတွေမှာ Kiki လေး၊ ကြောင်နက် Jiji လေး၊ ပေါင်မုန့်၊ ဖုန်း/ရေဒီယို၊ ဖဲပြားနီ စတဲ့ အသေးစိတ် ချစ်စရာ 3D ရုပ်တုလေးတွေ ပါဝင်တာကြောင့် အခန်းတွင်း နံရံမှာ ချိတ်ဆွဲဖို့ရော စားပွဲပေါ် အလှတင်ထားဖို့ပါ အထူးသင့်လျော်ပါ",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 50,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Studio_Ghibli_bag_charms_are_my_whole_personality_.jpeg",
+    "name": "Studio Ghibli Bag Charms Collection",
+    "category": 11,
+    "price": 9500,
+    "description": "Express your love for magical anime worlds with this adorable Studio Ghibli bag charms collection. Featuring various iconic and beloved characters meticulously designed as cute charms and keychains, this collection adds a whimsical, charming touch to your backpacks, purses, or daily keys. A wonderful accessory or gift for any Ghibli fan!",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 51,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__41.jpeg",
+    "name": "Studio Ghibli No-face Flowerpot & Miniature Desk",
+    "category": 11,
+    "price": 20000,
+    "description": "Bring a touch of magical Ghibli charm to your indoor garden or desktop with this creative No-Face flowerpot and miniature decor. Featuring vibrant colorful flowers planted above a detailed miniature counter scene with beloved characters, this piece serves as both a charming planter and an exquisite display piece for anime fans and home decorators.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 52,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__42.jpeg",
+    "name": "No-Face LED Street Lamp Night",
+    "category": 11,
+    "price": 17500,
+    "description": "Illuminate your room with a cozy, magical glow using this charming Studio Ghibli No-Face LED night light. Designed in the shape of a vintage street lamp with the iconic No-Face character reading a book underneath, it serves as both a functional bedside lamp and an enchanting piece of anime-inspired desk decor. Perfect for Ghibli fans and creating a warm ambiance.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 53,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/小红书_rednote_xiaohongshu_douyin.jpeg",
+    "name": "Ponyo on the Cliff by the Sea Ocean Wave Figurine",
+    "category": 11,
+    "price": 25000,
+    "description": "Bring the heartwarming magic of Studio Ghibli’s classic to life with this stunning Ponyo on the Cliff by the Sea ocean wave figurine. Featuring intricate details of dynamic ocean waves, magical water spirits, and beloved characters Sosuke and Ponyo, this masterpiece is a breathtaking display piece for any Ghibli collection or home decor.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 54,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/not_mine.jpeg",
+    "name": "Studio Ghibli Character Ceramic Mug Collection",
+    "category": 11,
+    "price": 25000,
+    "description": "Sip your favorite coffee or tea in magical style with this adorable Studio Ghibli character ceramic mug collection. Featuring beautifully hand-painted artwork of iconic anime scenes and beloved characters like Howl’s Moving Castle, these mugs bring a cozy, artistic, and whimsical touch to your daily routine or kitchen decor.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 55,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__47.jpeg",
+    "name": "Elegant Mermaid Tray Figurine Decor",
+    "category": 12,
+    "price": 24000,
+    "description": "Add a touch of mythical elegance and fantasy to your living space with this exquisite mermaid tray figurine. Featuring a beautifully crafted golden-tailed mermaid gracefully holding up a small round tray atop ocean waves, this piece serves as both a stunning decorative statue and a functional holder for small items like jewelry, keys, or trinkets.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 56,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__46.jpeg",
+    "name": "Glowing Seashell & Mermaid Tail Night Light",
+    "category": 12,
+    "price": 19500,
+    "description": "Bring a magical underwater ambiance to your bedside table or room decor with this glowing seashell and mermaid tail night light. Featuring a sparkling mermaid tail and tiny starfish nestled inside a beautifully crafted resin seashell with a warm glowing light, this enchanting piece creates a cozy and relaxing atmosphere.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 57,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__45.jpeg",
+    "name": "Pearly Seashell & Coral Jewelry Dish Decor",
+    "category": 12,
+    "price": 16000,
+    "description": "Add a touch of oceanic elegance to your vanity or desk with this charming pearly seashell and coral jewelry dish. Featuring a beautifully sculpted open seashell adorned with delicate white corals, pearls, and sparkling details, this piece serves as both a stunning aesthetic decoration and a practical holder for rings, earrings, or small trinkets.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 58,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Dolphin_Coral_Shell_Fountain__Ocean_Calm_for_Any_Room.jpeg",
+    "name": "Dolphin Coral Shell Fountain",
+    "category": 12,
+    "price": 28000,
+    "description": "Bring ocean calm and relaxation to your space with this stunning Dolphin Coral Shell Fountain. Featuring a beautifully crafted design of playful dolphins leaping over stacked seashell basins adorned with coral details and soft glowing light, this piece creates a tranquil, soothing water feature and an enchanting home decor centerpiece.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 59,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__16_oVhgwON.jpeg",
+    "name": "Mini LED  Aquarium Desk Lamp with  KiKi and Fish",
+    "category": 11,
+    "price": 22000,
+    "description": "Brighten up your workspace or bedside table with this charming mini LED aquarium desk lamp. Featuring a creative miniature fish tank design complete with cute fish figurines and a soft-lighting desk lamp attached, it creates a calming and cozy atmosphere. A perfect combination of practical desk illumination and delightful aesthetic room decor.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 60,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__43_nY01Z2J.jpeg",
+    "name": "Studio Ghibli No-Face Figure Decor",
+    "category": 11,
+    "price": 25000,
+    "description": "Bring a touch of beloved anime magic to your desk or room decor with this charming Studio Ghibli No-Face figurine. Featuring the iconic No-Face character in a cute, detailed setting holding a small balloon and standing on a round base, this piece captures a delightful and whimsical aesthetic. Perfect for shelf styling, collection displays, or as a thoughtful gift for any Ghibli fan",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.product",
+  "pk": 61,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Handmade_DIY_Ocean_Fish_Whale_Dream_Wind_Chimes_Material_Kit_Gift_for_Bo_uh2SBLr.jpeg",
+    "name": "Ocean Whale & Fish Dream Wind Chime",
+    "category": 12,
+    "price": 18000,
+    "description": "Create a dreamy and magical underwater vibe in your living space with this handmade ocean whale and fish mobile wind chime. Featuring a charming girl riding a gentle whale surrounded by colorful little fish, this delicate hanging decor adds a soothing, artistic touch to bedrooms, nurseries, or cozy corners. A wonderful and unique gift choice for loved ones, partners, or friends.",
+    "is_sale": false,
+    "sale_price": 0
+  }
+},
+{
+  "model": "store.newest",
+  "pk": 1,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/the_cutest_puddle_pair_.jpeg",
+    "name": "The Cutest Puddle Pair Figure Set",
+    "price": 25000,
+    "description": "Bring an adorable touch of sweetness to your room decor with \"The Cutest Puddle Pair\" handmade figurine set. Featuring two charming little characters dressed in cute rain gear, this handcrafted piece captures a heartwarming and tender moment. Perfect for desk displays, shelf styling, or as a thoughtful gift for someone special who loves cute aesthetics.နွေဦးရာသီရဲ့ လှပဆန်းသစ်တဲ့ ပန်းပွင့်အလှတရားတွေကို သင့်အခန်းထဲသို့ ယူဆောင်လာပေးမယ့် လက်ရာမြောက် “Handmade Cherry Blossom Canvas Art” အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်။ ကင်းဗတ်စလေးပေါ်မှာ 3D ပုံစံ လက်ရာမြောက်စွာ ဖန်တီးထားတဲ့ ချယ်ရီပန်းပင်၊ ပန်းရောင်ပန်းပွင့်လေးတွေ၊ မိုးပြာရောင် တိမ်တိုက်လေးတွေနဲ့ စိမ်းစိုတဲ့ သစ်ရွက်လေးတွေ ပါဝင်တာကြောင့် အိပ်ခန်း၊ အလုပ်စားပွဲ သို့မဟုတ် နံရံအလှဆင်ဖို့အတွက် အလွန်ပဲ ဖတ်လို့ကောင်းပြီး လှပလွန်းပါတယ်ဗျာ။ 🌸☁️✨\r\n\r\n\r\nSize: Approx. 15cm - 18cm height per piece (စားပွဲတင် သို့မဟုတ် ကတ်တလောက်စင်ပေါ် အလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n Material: High-quality PVC, Resin, and Hand-painted Finish"
+  }
+},
+{
+  "model": "store.newest",
+  "pk": 3,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Hirono__Nyota_I5ebE1B.jpeg",
+    "name": "Hirono & Nyota Crown Figure Set",
+    "price": 28500,
+    "description": "Add a touch of artistic charm and uniqueness to your collection with this adorable Hirono & Nyota crown figurine set. Featuring beautifully crafted characters wearing delicate silver crowns, this piece brings a blend of modern art toy aesthetic and whimsical storytelling. Perfect for shelf styling, desk decor, or as a special collectible gift for art toy lovers.နွေဦးရာသီရဲ့ လှပဆန်းသစ်တဲ့ ပန်းပွင့်အလှတရားတွေကို သင့်အခန်းထဲသို့ ယူဆောင်လာပေးမယ့် လက်ရာမြောက် “Handmade Cherry Blossom Canvas Art” အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်။ ကင်းဗတ်စလေးပေါ်မှာ 3D ပုံစံ လက်ရာမြောက်စွာ ဖန်တီးထားတဲ့ ချယ်ရီပန်းပင်၊ ပန်းရောင်ပန်းပွင့်လေးတွေ၊ မိုးပြာရောင် တိမ်တိုက်လေးတွေနဲ့ စိမ်းစိုတဲ့ သစ်ရွက်လေးတွေ ပါဝင်တာကြောင့် အိပ်ခန်း၊ အလုပ်စားပွဲ သို့မဟုတ် နံရံအလှဆင်ဖို့အတွက် အလွန်ပဲ ဖတ်လို့ကောင်းပြီး လှပလွန်းပါတယ်ဗျာ။ 🌸☁️✨\r\n\r\n\r\nSize: Approx. 15cm - 18cm height per piece (စားပွဲတင် သို့မဟုတ် ကတ်တလောက်စင်ပေါ် အလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n Material: High-quality PVC, Resin, and Hand-painted Finish"
+  }
+},
+{
+  "model": "store.newest",
+  "pk": 6,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__18.jpeg",
+    "name": "Hirono & Nyota Star Figure Set",
+    "price": 25000,
+    "description": "Add a playful, whimsical, and creative touch to your room decor with this adorable star and cardboard costume figurine set. Featuring cute stylized characters dressed in a bright yellow star outfit and a rustic cardboard box costume, this unique collectible set brings a charming and cheerful aesthetic to any desk, shelf, or display space.\r\nနွေဦးရာသီရဲ့ လှပဆန်းသစ်တဲ့ ပန်းပွင့်အလှတရားတွေကို သင့်အခန်းထဲသို့ ယူဆောင်လာပေးမယ့် လက်ရာမြောက် “Handmade Cherry Blossom Canvas Art” အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်။ ကင်းဗတ်စလေးပေါ်မှာ 3D ပုံစံ လက်ရာမြောက်စွာ ဖန်တီးထားတဲ့ ချယ်ရီပန်းပင်၊ ပန်းရောင်ပန်းပွင့်လေးတွေ၊ မိုးပြာရောင် တိမ်တိုက်လေးတွေနဲ့ စိမ်းစိုတဲ့ သစ်ရွက်လေးတွေ ပါဝင်တာကြောင့် အိပ်ခန်း၊ အလုပ်စားပွဲ သို့မဟုတ် နံရံအလှဆင်ဖို့အတွက် အလွန်ပဲ ဖတ်လို့ကောင်းပြီး လှပလွန်းပါတယ်ဗျာ။ 🌸☁️✨\r\n\r\n\r\nSize: Approx. 15cm - 18cm height per piece (စားပွဲတင် သို့မဟုတ် ကတ်တလောက်စင်ပေါ် အလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n Material: High-quality PVC, Resin, and Hand-painted Finish"
+  }
+},
+{
+  "model": "store.newest",
+  "pk": 8,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Nyota_Spring_Wisteria__Hirono_Fort.jpeg",
+    "name": "Nyota Spring Wisteria & Hirono Fort Collectible",
+    "price": 35000,
+    "description": "Elevate your collection with this stunning set featuring Nyota Spring Wisteria and Hirono Fort figures. Beautifully crafted with exquisite artistic details, soft pastel tones, and a whimsical fairytale aesthetic. Perfect for art toy collectors, desk decor, and creating a magical vibe in any room display! ✨🏰🌸\r\n\r\n\r\nအလွန်လက်ရာမြောက်ပြီး လူကြိုက်များတဲ့ “Nyota Spring Wisteria & Hirono Fort” ရုပ်တုစုံတွဲလေးတွေနဲ့ သင့်ရဲ့ စုဆောင်းမှုနေရာလေးကို ပိုမိုလှပတင့်တယ်စေမှာ ဖြစ်ပါတယ်။ စိတ်ကူးယဉ်ဆန်ဆန် အနုပညာလက်ရာအသေးစိတ်တွေ၊ နူးညံ့တဲ့အရောင်အသွေးတွေနဲ့ ပုံပြင်ဆန်ဆန် ဖန်တီးထားတာဖြစ်လို့ Art Toy စုဆောင်းသူတွေအတွက်နဲ့ အခန်းတွင်း သို့မဟုတ် စားပွဲတင် အလှဆင်ဖို့အတွက် အလွန်ပဲ ပြီးပြည့်စုံပါတယ်ဗျာ။ ✨🏰🌸\r\nSize: Approx. 15cm - 18cm height per piece (စားပွဲတင် သို့မဟုတ် ကတ်တလောက်စင်ပေါ် အလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n Material: High-quality PVC, Resin, and Hand-painted Finish"
+  }
+},
+{
+  "model": "store.newest",
+  "pk": 9,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/_ᥫ.jpeg",
+    "name": "Hirono Collectible Figures Set",
+    "price": 35000,
+    "description": "Add a unique and expressive touch to your collection with this charming Hirono collectible figures set. Featuring intricately crafted character designs with distinct artistic emotions, styled in matching blue outfits. Perfect for art toy enthusiasts, shelf displays, and aesthetic room decor! ✨💙\r\nအလွန်လူကြိုက်များပြီး အနုပညာဆန်တဲ့ ဖန်တီးမှုတစ်ခုဖြစ်တဲ့ “Hirono Collectible Figures Set” ရုပ်တုစုံတွဲလေးတွေနဲ့ သင့်ရဲ့ စုဆောင်းမှုနေရာလေးကို ပိုမိုဆန်းသစ်လှပစေမှာ ဖြစ်ပါတယ်။ အ நீရောင်ဝတ်စုံလေးတွေ ဝတ်ဆင်ထားပြီး ထူးခြားတဲ့ ခံစားချက်အမူအရာတွေကို အသေးစိတ် လက်ရာမြောက်စွာ ဖန်တီးထားတာကြောင့် Art Toy စုဆောင်းသူတွေအတွက်နဲ့ အခန်းတွင်း သို့မဟုတ် စားပွဲတင် အလှဆင်ဖို့အတွက် အလွန်ပဲ ပြီးပြည့်စုံပါတယ်ဗျာ။ ✨💙\r\nAdd a unique and expressive touch to your collection with this charming Hirono collectible figures set. Featuring intricately crafted character designs with distinct artistic emotions, styled in matching blue outfits. Perfect for art toy enthusiasts, shelf displays, and aesthetic room decor! ✨💙"
+  }
+},
+{
+  "model": "store.newest",
+  "pk": 10,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/cutie_duo.jpeg",
+    "name": "Hirono & Companion Collective Figures",
+    "price": 27500,
+    "description": "Expand your art toy collection with this adorable Hirono and companion figures set. Featuring finely crafted character designs, including a character with a charming miniature bird house hat and another in a cozy white hooded cloak. Perfect for collectors, shelf displays, and adding a unique, storytelling aesthetic to your room! ✨🤎\r\nအလွန်ချစ်စရာကောင်းပြီး အနုပညာဆန်တဲ့ “Hirono & Companion Collectibles” ရုပ်တုစုံတွဲလေးတွေနဲ့ သင့်ရဲ့ စုဆောင်းမှုနေရာလေးကို ပိုမိုဆန်းသစ်လှပစေမှာ ဖြစ်ပါတယ်။ ဦးခေါင်းပေါ်မှာ ငှက်အိမ်လေးနဲ့ ချစ်စရာဒီဇိုင်းတစ်ခု၊ ဖြူစင်နွေးထွေးတဲ့ ဝတ်စုံလေးဝတ်ဆင်ထားတဲ့ ဒီဇိုင်းတစ်ခုတို့ကို အသေးစိတ် လက်ရာမြောက်စွာ ဖန်တီးထားတာကြောင့် Art Toy စုဆောင်းသူတွေအတွက်နဲ့ အခန်းတွင်း သို့မဟုတ် စားပွဲတင် အလှဆင်ဖို့အတွက် အလွန်ပဲ ပြီးပြည့်စုံပါတယ်ဗျာ။ ✨🤎🤍\r\nSize: Approx. 10cm - 12cm height per piece (စားပွဲတင် သို့မဟုတ် အလှဆင်စင်ပေါ်တွင် တင်ရန် သင့်တော်သော အရွယ်အစား)  \r\n Material: High-quality PVC, Resin, and Hand-painted Finish"
+  }
+},
+{
+  "model": "store.sales",
+  "pk": 4,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__32.jpeg",
+    "name": "Studio Ghibli Calcifer Candle Holder",
+    "price": 15000,
+    "description": "Bring the cozy,magical wamth of Howl's Moving Castle to your room with this adorable Studio Ghibli Calcifer Candle holder .Featuring the beloved fire demon Calcifer holding a frying pan with a tea light candle,this charming piece adds a delightful,warm glow and a whimsical touch to any desk or decor.",
+    "is_sale": true,
+    "sale_price": 12500
+  }
+},
+{
+  "model": "store.sales",
+  "pk": 5,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__3_YRbjRD4.jpeg",
+    "name": "Billiard Ball Wooden Wall Clock",
+    "price": 23000,
+    "description": "Add a unique, sporty, and creative touch to your room or entertainment space with this stylish billiard ball wooden wall clock. Featuring classic numbered billiard balls as hour markers set inside a round wooden frame, this timepiece combines playful design with functional home decor. Perfect for game rooms, bedrooms, or as a fun gift for pool enthusiasts.",
+    "is_sale": true,
+    "sale_price": 20000
+  }
+},
+{
+  "model": "store.sales",
+  "pk": 6,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/Buy_Cute_Kawaii_Lamp_Projector_at_Best_Price___Juwas.jpeg",
+    "name": "Cute Kawaii Lamp  Projector",
+    "price": 18500,
+    "description": "Bring a magical, dreamy glow to your bedroom or desk with this enchanting cute glowing flower glass dome lamp. Featuring delicate handcrafted white and yellow flowers nestled inside a clear glass dome atop a lovely wooden base, illuminated by warm LED lights. Perfect for creating a cozy, aesthetic, and romantic atmosphere in any room! 🌸✨💡\r\n\r\n\r\nမှော်ဆန်ပြီး နွေးထွေးတဲ့ အလှတရားကို ဖန်တီးပေးမယ့် လက်ရာမြောက် “Cute Glowing Flower Glass Dome Lamp” မီးအိမ်လေး ဖြစ်ပါတယ်။ မှန်အုပ်အိုးလေးထဲမှာ လှပသပ်ရပ်စွာ လက်လုပ်ဖန်တီးထားတဲ့ အဖြူနဲ့အဝါရောင် ပန်းပွင့်လေးတွေပါဝင်ပြီး၊ နွေးထွေးတဲ့ LED မီးရောင်လေးနဲ့ ပေါင်းစပ်ထားတာကြောင့် အိပ်ခန်း၊ စားပွဲတင် သို့မဟုတ် အခန်းအလှဆင်ဖို့အတွက် အလွန်ပဲ ရိုမန်တစ်ဆန်ပြီး ချစ်စရာကောင်းပါတယ်။ 🌸✨💡\r\nSize: Approx. 15cm x 12cm (စားပွဲတင် သို့မဟုတ် အိပ်ခန်းအလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n Material: Glass Dome, Wooden Base, Air-dry Clay, and Warm LED Lights",
+    "is_sale": true,
+    "sale_price": 16500
+  }
+},
+{
+  "model": "store.sales",
+  "pk": 7,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/__48.jpeg",
+    "name": "Handmade Forest Goddess Trinket Dish",
+    "price": 16000,
+    "description": "Bring a touch of mystical woodland magic to your vanity with this enchanting handmade forest goddess trinket dish. Featuring a serene sculpted forest spirit maiden resting within a shimmering green pond adorned with delicate lily pads and tiny white blossoms. Perfect for holding rings, keys, or small trinkets while adding an artistic, fairy-tale touch to your room! 🍃🌿✨\r\n\r\n\r\nမှော်ဆန်တဲ့ သစ်တောပုံပြင်ဆန်ဆန် အလှတရားကို သင့်ရဲ့ အလှပြင်စားပွဲလေးဆီ ယူဆောင်လာပေးမယ့် လက်ရာမြောက် “Handmade Forest Goddess Trinket Dish” ပန်းကန်ပြားငယ်လေး ဖြစ်ပါတယ်။ စိမ်းစိုတောက်ပတဲ့ ရေကန်ငယ်လေးထဲမှာ ဒူးပွေ့ထိုင်နေတဲ့ သစ်တောနတ်သမီးပုံစံ ရုပ်တုလေးနဲ့အတူ သက်ဝင်လှပတဲ့ ကြာွက်စိမ်းလေးတွေ၊ ပန်းပွင့်ဖြူလေးတွေနဲ့ အသေးစိတ် လက်ရာမြောက်စွာ ဖန်တီးထားပါတယ်။ လက်စွပ်၊ သော့ ဒါမှမဟုတ် အသုံးအဆောင်ပစ္စည်းလေးတွေ သိမ်းဆည်းဖို့နဲ့ အခန်းကို ပုံစံဆန်းပြီး အလှဆင်ဖို့အတွက် အလွန်ပဲ ပြီးပြည့်စုံပါတယ်ဗျာ။ 🍃🌿✨\r\n\r\n\r\nSize: Approx. 14cm x 12cm (စားပွဲတင် သို့မဟုတ် လက်ဝတ်ရတနာ သိမ်းဆည်းရန် သင့်တော်သော အရွယ်အစား)\r\n Material: Ceramic, Air-dry Clay, and Hand-painted Glossy Finish",
+    "is_sale": true,
+    "sale_price": 13500
+  }
+},
+{
+  "model": "store.sales",
+  "pk": 8,
+  "fields": {
+    "product_type": null,
+    "image": "product_images/handmade_diy_clay_crafting.jpeg",
+    "name": "Handmade Cherry Blossom Canvas Art",
+    "price": 17000,
+    "description": "Brighten up your space with the delicate beauty of spring using this charming handmade cherry blossom canvas art. Featuring a 3D sculpted cherry blossom tree with lovely pink flowers, fluffy blue clouds, and vibrant green foliage on a mini canvas. Perfect for adding a fresh, aesthetic, and peaceful nature-inspired touch to your bedroom, desk, or gallery wall! 🌸☁️✨\r\n\r\n\r\nနွေဦးရာသီရဲ့ လှပဆန်းသစ်တဲ့ ပန်းပွင့်အလှတရားတွေကို သင့်အခန်းထဲသို့ ယူဆောင်လာပေးမယ့် လက်ရာမြောက် “Handmade Cherry Blossom Canvas Art” အလှဆင်ပစ္စည်းလေး ဖြစ်ပါတယ်။ ကင်းဗတ်စလေးပေါ်မှာ 3D ပုံစံ လက်ရာမြောက်စွာ ဖန်တီးထားတဲ့ ချယ်ရီပန်းပင်၊ ပန်းရောင်ပန်းပွင့်လေးတွေ၊ မိုးပြာရောင် တိမ်တိုက်လေးတွေနဲ့ စိမ်းစိုတဲ့ သစ်ရွက်လေးတွေ ပါဝင်တာကြောင့် အိပ်ခန်း၊ အလုပ်စားပွဲ သို့မဟုတ် နံရံအလှဆင်ဖို့အတွက် အလွန်ပဲ ဖတ်လို့ကောင်းပြီး လှပလွန်းပါတယ်ဗျာ။ 🌸☁️✨\r\nSize: Approx. 20cm x 15cm (နံရံကပ် သို့မဟုတ် စားပွဲတင် အလှဆင်ရန် သင့်တော်သော အရွယ်အစား)\r\n Material: Mini Canvas, Air-dry Clay, and Hand-painted Finish",
+    "is_sale": true,
+    "sale_price": 15000
+  }
+}
+]
